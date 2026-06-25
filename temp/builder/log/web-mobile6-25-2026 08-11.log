@@ -1,0 +1,390 @@
+6-25-2026 16:20:16 - debug: =================================== build Task (web-mobile) Start ================================
+6-25-2026 16:20:16 - debug: Start build task, options:{"name":"Ikame_Test_BusAway","server":"","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"on","physics":"inherit-project-setting","physics-2d":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"nativeCodeBundleMode":"asmjs","polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"md5CacheOptions":{"excludes":[],"includes":[],"replaceOnly":[],"handleTemplateMd5Link":true},"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"a8d650d1-27ad-4e86-bc5c-34351a0991b3","outputName":"web-mobile","taskName":"web-mobile","scenes":[{"url":"db://assets/Game/Scene/Test.scene","uuid":"a8d650d1-27ad-4e86-bc5c-34351a0991b3"}],"wasmCompressionMode":false,"packages":{"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"web-mobile":{"useWebGPU":false,"orientation":"auto","embedWebDebugger":false,"__version__":"1.0.1"},"cocos-service":{"configID":"f5f67a","services":[]}},"__version__":"1.3.8","logDest":"project://temp/builder/log/web-mobile6-25-2026 08-11.log"}
+6-25-2026 16:20:16 - debug: Build with Cocos Creator 3.8.4
+6-25-2026 16:20:16 - debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+6-25-2026 16:20:16 - debug: // ---- build task cocos-service：onBeforeBuild ----
+6-25-2026 16:20:16 - debug: // ---- build task cocos-service：onBeforeBuild ---- (218ms)
+6-25-2026 16:20:16 - debug: cocos-service:(onBeforeBuild) in 218 ms ✓, progress: 2%
+6-25-2026 16:20:16 - debug: scene:(onBeforeBuild) start..., progress: 2%
+6-25-2026 16:20:16 - debug: // ---- build task scene：onBeforeBuild ----
+6-25-2026 16:20:17 - debug: // ---- build task scene：onBeforeBuild ---- (24ms)
+6-25-2026 16:20:17 - debug: scene:(onBeforeBuild) in 24 ms ✓, progress: 4%
+6-25-2026 16:20:17 - debug: Start lock asset db..., progress: 4%
+6-25-2026 16:20:17 - log: Asset DB is paused with build!
+6-25-2026 16:20:17 - debug: Query all assets info in project
+6-25-2026 16:20:17 - debug: init custom config: keepNodeUuid: false, useCache: true
+6-25-2026 16:20:17 - debug: web-mobile:(onAfterInit) start..., progress: 4%
+6-25-2026 16:20:17 - debug: // ---- build task web-mobile：onAfterInit ----
+6-25-2026 16:20:17 - debug: // ---- build task web-mobile：onAfterInit ---- (10ms)
+6-25-2026 16:20:17 - debug: web-mobile:(onAfterInit) in 10 ms ✓, progress: 5%
+6-25-2026 16:20:17 - debug: cocos-service:(onAfterInit) start..., progress: 5%
+6-25-2026 16:20:17 - debug: // ---- build task cocos-service：onAfterInit ----
+6-25-2026 16:20:17 - debug: // ---- build task cocos-service：onAfterInit ---- (230ms)
+6-25-2026 16:20:17 - debug: cocos-service:(onAfterInit) in 230 ms ✓, progress: 7%
+6-25-2026 16:20:17 - debug: engine:(onAfterInit) start..., progress: 7%
+6-25-2026 16:20:17 - debug: // ---- build task engine：onAfterInit ----
+6-25-2026 16:20:17 - debug: // ---- build task engine：onAfterInit ---- (17ms)
+6-25-2026 16:20:17 - debug: engine:(onAfterInit) in 17 ms ✓, progress: 9%
+6-25-2026 16:20:17 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 9%
+6-25-2026 16:20:17 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+6-25-2026 16:20:17 - debug: [adsense-h5g-plugin] remove script success
+6-25-2026 16:20:17 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (22ms)
+6-25-2026 16:20:17 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 22 ms ✓, progress: 9%
+6-25-2026 16:20:17 - debug: Init all bundles start..., progress: 9%
+6-25-2026 16:20:17 - debug: Num of bundles: 3..., progress: 9%
+6-25-2026 16:20:17 - debug: web-mobile:(onAfterBundleInit) start..., progress: 9%
+6-25-2026 16:20:17 - debug: // ---- build task web-mobile：onAfterBundleInit ----
+6-25-2026 16:20:17 - debug: // ---- build task web-mobile：onAfterBundleInit ---- (36ms)
+6-25-2026 16:20:17 - debug: web-mobile:(onAfterBundleInit) in 36 ms ✓, progress: 9%
+6-25-2026 16:20:17 - debug: Query asset bundle start, progress: 9%
+6-25-2026 16:20:17 - debug: // ---- build task Query asset bundle ----
+6-25-2026 16:20:17 - debug: Init bundle root assets start..., progress: 9%
+6-25-2026 16:20:17 - debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,ff9be190-20a4-4e48-b68c-76e3c7cff085,0835f102-5471-47a3-9a76-01c07ac9cdb2,b5475517-23b9-4873-bc1a-968d96616081,0ed97c56-390e-4dd1-96b7-e7f2d93a98ed,b23391b6-52eb-46a6-8da1-6244d9d315fb,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,4bb480dd-8384-4bc9-987f-de67cc53052a,d9937e59-61fe-4ec6-92ab-7ac5a19c89b0,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,1d08ef62-a503-4ce2-8b9a-46c90873f7d3,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
+6-25-2026 16:20:17 - debug:   Number of all scenes: 1
+6-25-2026 16:20:17 - debug:   Number of all scripts: 40
+6-25-2026 16:20:17 - debug:   Number of other assets: 443
+6-25-2026 16:20:17 - debug: Init bundle root assets success..., progress: 9%
+6-25-2026 16:20:17 - debug: reload all scripts.
+6-25-2026 16:20:17 - debug: Set detail map pack:///resolution-detail-map.json: {}
+6-25-2026 16:20:17 - groupCollapsed: Invalidate all modules
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgpu" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline-post-process" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/legacy-pipeline" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgpu" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline-post-process" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/legacy-pipeline" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+6-25-2026 16:20:17 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+6-25-2026 16:20:17 - groupEnd: Invalidate all modules
+6-25-2026 16:20:17 - groupCollapsed: Imports all modules
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\d6\d6137fe08bf966a053351bb405928e5a6390befd.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\d6\d6137fe08bf966a053351bb405928e5a6390befd.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\b3\b349769b96cc4c1dff92d5d6f941366e27a02c6b.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\b3\b349769b96cc4c1dff92d5d6f941366e27a02c6b.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/b3/b349769b96cc4c1dff92d5d6f941366e27a02c6b.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register BuiltinPipelineSettings
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/d6/d6137fe08bf966a053351bb405928e5a6390befd.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\59\59b7958b47eec6168615a6469581f8f48e26cb00.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\59\59b7958b47eec6168615a6469581f8f48e26cb00.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/59/59b7958b47eec6168615a6469581f8f48e26cb00.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\97\9758c8bdbb4fd247ebce274d105abb8265561b82.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\97\9758c8bdbb4fd247ebce274d105abb8265561b82.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register DebugViewRuntimeControl
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/97/9758c8bdbb4fd247ebce274d105abb8265561b82.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\f8\f8d79fd168005976b05d27b2b8b8a7d622049f90.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\f8\f8d79fd168005976b05d27b2b8b8a7d622049f90.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\31\313504fb8926221265ee93272df5a47d89e1d07c.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\31\313504fb8926221265ee93272df5a47d89e1d07c.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\e1\e1498b22455cb0df5abe8f3f00833e9109d052ff.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\e1\e1498b22455cb0df5abe8f3f00833e9109d052ff.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\4f\4f7f80238cddb981f1f8ac37e528e6a0ae16bd41.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\4f\4f7f80238cddb981f1f8ac37e528e6a0ae16bd41.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\7d\7d6e6d2375743aa1e2f41782afb9cb685c4efa0b.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\7d\7d6e6d2375743aa1e2f41782afb9cb685c4efa0b.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\4c\4cdca78eb4ba668bcc705225a9e180db889b5111.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\4c\4cdca78eb4ba668bcc705225a9e180db889b5111.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/7d/7d6e6d2375743aa1e2f41782afb9cb685c4efa0b.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register ColorMaterialMapping
+6-25-2026 16:20:17 - debug: [[Executor]] Register ColorManager
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/e1/e1498b22455cb0df5abe8f3f00833e9109d052ff.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register StickmanAnimationController
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/4c/4cdca78eb4ba668bcc705225a9e180db889b5111.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register PassengerController
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/31/313504fb8926221265ee93272df5a47d89e1d07c.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register PassengerSpawner
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/4f/4f7f80238cddb981f1f8ac37e528e6a0ae16bd41.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register BusStop
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/f8/f8d79fd168005976b05d27b2b8b8a7d622049f90.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\ec\ec6aacee3617a8da56689ff0d6199b93c087e952.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\ec\ec6aacee3617a8da56689ff0d6199b93c087e952.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/ec/ec6aacee3617a8da56689ff0d6199b93c087e952.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\74\741818f48a7759f1780c8430f6a2591026c3e6f5.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\74\741818f48a7759f1780c8430f6a2591026c3e6f5.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/74/741818f48a7759f1780c8430f6a2591026c3e6f5.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\29\29e6b9e715456973d611ed35fe85b2e1c047f3a0.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\29\29e6b9e715456973d611ed35fe85b2e1c047f3a0.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\7e\7e32fb984a7ee2bcd4ba2ecf9e8302d8831129db.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\7e\7e32fb984a7ee2bcd4ba2ecf9e8302d8831129db.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\12\12b5a22c084e98fadb1302d9b44f81ef7d14706b.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\12\12b5a22c084e98fadb1302d9b44f81ef7d14706b.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\2e\2e5f358a196241bc33a82edf12857d7930944011.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\2e\2e5f358a196241bc33a82edf12857d7930944011.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\fe\fe977ba92fc4731e7bce5cf2b7a2f6a7e3580430.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\fe\fe977ba92fc4731e7bce5cf2b7a2f6a7e3580430.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\43\4349b431a675b7c9be4f8140baa3fac74363fd5b.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\43\4349b431a675b7c9be4f8140baa3fac74363fd5b.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\1b\1ba83ae2d5ffca343bd9f5c0faa8281bb85e6306.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\1b\1ba83ae2d5ffca343bd9f5c0faa8281bb85e6306.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\3f\3f82615acfbd9c1fec75b80a3c869eee50a30a8a.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\3f\3f82615acfbd9c1fec75b80a3c869eee50a30a8a.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\fd\fdf3e73949c15b6b2b87529377b813f485c08977.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\fd\fdf3e73949c15b6b2b87529377b813f485c08977.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\56\560c504e326d3de014d70cc3b37cffe39fa73b5a.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\56\560c504e326d3de014d70cc3b37cffe39fa73b5a.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\c7\c76c5a51362d40705816f1d82ce76ebab3526a9c.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\c7\c76c5a51362d40705816f1d82ce76ebab3526a9c.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\a1\a106d4400d940924b7231dd8dfba63f536c52455.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\a1\a106d4400d940924b7231dd8dfba63f536c52455.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\3b\3b463bd7053e716dfb954603080db74532cd0bde.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\3b\3b463bd7053e716dfb954603080db74532cd0bde.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register ParkingManager
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/2e/2e5f358a196241bc33a82edf12857d7930944011.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/7e/7e32fb984a7ee2bcd4ba2ecf9e8302d8831129db.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register BaseEvent
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/3b/3b463bd7053e716dfb954603080db74532cd0bde.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register GlobalEvent
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/56/560c504e326d3de014d70cc3b37cffe39fa73b5a.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/fd/fdf3e73949c15b6b2b87529377b813f485c08977.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register Gamecontroller
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/12/12b5a22c084e98fadb1302d9b44f81ef7d14706b.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/c7/c76c5a51362d40705816f1d82ce76ebab3526a9c.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register GateCheck
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/a1/a106d4400d940924b7231dd8dfba63f536c52455.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/1b/1ba83ae2d5ffca343bd9f5c0faa8281bb85e6306.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/43/4349b431a675b7c9be4f8140baa3fac74363fd5b.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/fe/fe977ba92fc4731e7bce5cf2b7a2f6a7e3580430.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register PathFollower
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/3f/3f82615acfbd9c1fec75b80a3c869eee50a30a8a.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register BusController
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/29/29e6b9e715456973d611ed35fe85b2e1c047f3a0.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\38\38e8bd1cccd21c0dff7ff187ddb41e6329c5bc28.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\38\38e8bd1cccd21c0dff7ff187ddb41e6329c5bc28.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\02\023a2e8cf44f88cff54da8669a0111f773c989f4.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\02\023a2e8cf44f88cff54da8669a0111f773c989f4.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/02/023a2e8cf44f88cff54da8669a0111f773c989f4.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register GameLoseManager
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/38/38e8bd1cccd21c0dff7ff187ddb41e6329c5bc28.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\1c\1cf2390eb032cd22b76ee38c7f037f89c9fbee4d.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\1c\1cf2390eb032cd22b76ee38c7f037f89c9fbee4d.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register GameWinManager
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/1c/1cf2390eb032cd22b76ee38c7f037f89c9fbee4d.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\35\35b29a7bbb88c452784851ecf3473e9f8b5c61af.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\35\35b29a7bbb88c452784851ecf3473e9f8b5c61af.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register HandleInputListener
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/35/35b29a7bbb88c452784851ecf3473e9f8b5c61af.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\46\46aaeb1682feee0184d24bd6711d645121b60d03.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\46\46aaeb1682feee0184d24bd6711d645121b60d03.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register Point
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/46/46aaeb1682feee0184d24bd6711d645121b60d03.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\f8\f83461e1a10335fc949da7e314ddc869ecfc347b.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\f8\f83461e1a10335fc949da7e314ddc869ecfc347b.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/f8/f83461e1a10335fc949da7e314ddc869ecfc347b.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\5c\5cbd531ad51f8966c1d782702dd09e3c6ff251ce.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\5c\5cbd531ad51f8966c1d782702dd09e3c6ff251ce.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/5c/5cbd531ad51f8966c1d782702dd09e3c6ff251ce.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\05\05365cf5ed8347b4659f5ca63e09131658a03488.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\05\05365cf5ed8347b4659f5ca63e09131658a03488.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\96\96529fd72a5335ee453a039eaf1fe330d359f44e.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\96\96529fd72a5335ee453a039eaf1fe330d359f44e.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/96/96529fd72a5335ee453a039eaf1fe330d359f44e.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register PlayableAdsController
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/05/05365cf5ed8347b4659f5ca63e09131658a03488.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\76\7668e46f5ed263ccdcd269e0af0cc43bf5803a01.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\76\7668e46f5ed263ccdcd269e0af0cc43bf5803a01.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register BasePool
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/76/7668e46f5ed263ccdcd269e0af0cc43bf5803a01.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\c9\c922eaa3b5577d05dcc9f01cb26add47cca07ff7.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\c9\c922eaa3b5577d05dcc9f01cb26add47cca07ff7.js is not in module cache!
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\05\0501a3ac5cbd519fb0f0c702bebd7498cb3d0960.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\05\0501a3ac5cbd519fb0f0c702bebd7498cb3d0960.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/05/0501a3ac5cbd519fb0f0c702bebd7498cb3d0960.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Register BasePoolInfo
+6-25-2026 16:20:17 - debug: [[Executor]] Register PoolManager
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/c9/c922eaa3b5577d05dcc9f01cb26add47cca07ff7.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\b6\b6a1510f93a6ea8b7152bd23ec7ffed9e8bd0b42.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\b6\b6a1510f93a6ea8b7152bd23ec7ffed9e8bd0b42.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register Sound
+6-25-2026 16:20:17 - debug: [[Executor]] Register SoundManager
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/b6/b6a1510f93a6ea8b7152bd23ec7ffed9e8bd0b42.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\99\9968ad28bbe849a21f4321cf32dbe9397b2b04d3.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\99\9968ad28bbe849a21f4321cf32dbe9397b2b04d3.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register Utility
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/99/9968ad28bbe849a21f4321cf32dbe9397b2b04d3.js" loaded.
+6-25-2026 16:20:17 - debug: C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\df\dfc6b9a152bbb36d8a5cd249e3c7cd599cf4944b.js resolved to C:\Users\Tung Chen\Documents\GitHub\Test_PA\temp\programming\packer-driver\targets\editor\chunks\df\dfc6b9a152bbb36d8a5cd249e3c7cd599cf4944b.js is not in module cache!
+6-25-2026 16:20:17 - debug: [[Executor]] Register WayPoint
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/df/dfc6b9a152bbb36d8a5cd249e3c7cd599cf4944b.js" loaded.
+6-25-2026 16:20:17 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+6-25-2026 16:20:17 - groupEnd: Imports all modules
+6-25-2026 16:20:17 - debug: Incremental keys: 
+6-25-2026 16:20:17 - debug: Init bundle share assets start..., progress: 9%
+6-25-2026 16:20:17 - debug: Init bundle share assets success..., progress: 9%
+6-25-2026 16:20:17 - debug: handle json group in bundle internal
+6-25-2026 16:20:17 - debug: handle json group in bundle internal success
+6-25-2026 16:20:17 - debug: handle json group in bundle resources
+6-25-2026 16:20:17 - debug: handle json group in bundle main
+6-25-2026 16:20:17 - debug: init image compress task 0 in bundle internal
+6-25-2026 16:20:17 - debug: handle json group in bundle resources success
+6-25-2026 16:20:17 - debug: init image compress task 0 in bundle resources
+6-25-2026 16:20:17 - debug: handle json group in bundle main success
+6-25-2026 16:20:17 - debug: init image compress task 0 in bundle main
+6-25-2026 16:20:17 - debug: // ---- build task Query asset bundle ---- (173ms)
+6-25-2026 16:20:17 - debug: run build task Query asset bundle success in 173 ms√, progress: 14%
+6-25-2026 16:20:17 - debug: [Build Memory track]: Query asset bundle start:181.58MB, end 186.21MB, increase: 4.63MB
+6-25-2026 16:20:17 - debug: Query asset bundle start, progress: 14%
+6-25-2026 16:20:17 - debug: // ---- build task Query asset bundle ----
+6-25-2026 16:20:17 - debug: // ---- build task Query asset bundle ---- (21ms)
+6-25-2026 16:20:17 - debug: run build task Query asset bundle success in 21 ms√, progress: 19%
+6-25-2026 16:20:17 - debug: [Build Memory track]: Query asset bundle start:186.25MB, end 186.40MB, increase: 151.96KB
+6-25-2026 16:20:17 - debug: Build script start, progress: 19%
+6-25-2026 16:20:17 - debug: // ---- build task Build script ----
+6-25-2026 16:20:17 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+6-25-2026 16:20:18 - log: [build-script]enter sub process 45820, C:\ProgramData\cocos\editors\Creator\3.8.4\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\static\sub-process-index
+6-25-2026 16:20:19 - debug: excute-script over with build-script 2277ms
+6-25-2026 16:20:19 - debug: Generate systemJs..., progress: 19%
+6-25-2026 16:20:19 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+6-25-2026 16:20:21 - debug: excute-script over with build-script 1527ms
+6-25-2026 16:20:21 - debug: Build project script start..., progress: 19%
+6-25-2026 16:20:21 - debug: Build script in bundle start, progress: 19%
+6-25-2026 16:20:21 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+6-25-2026 16:20:23 - debug: excute-script over with build-script 2367ms
+6-25-2026 16:20:23 - debug: Copy externalScripts success!
+6-25-2026 16:20:23 - debug: Build script in bundle success, progress: 19%
+6-25-2026 16:20:23 - debug: Build project script in (2438 ms) √, progress: 19%
+6-25-2026 16:20:23 - debug: Build engine start..., progress: 19%
+6-25-2026 16:20:23 - debug: Use cache engine: {link(C:\Users\TUNGCH~1\AppData\Local\Temp\CocosCreator\3.8.4\builder\engine\d500955fe59601cefa57bd111541c081)}
+6-25-2026 16:20:23 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","animation","audio","base","custom-pipeline","debug-renderer","dragon-bones","geometry-renderer","gfx-webgl","gfx-webgl2","intersection-2d","light-probe","marionette","meshopt","occlusion-query","particle","particle-2d","physics-2d-box2d","physics-cannon","primitive","procedural-animation","profiler","skeletal-animation","spine","terrain","tiled-map","tween","ui","video","websocket","webview","xr","custom-pipeline-builtin-scripts"],"engineVersion":"3.8.4","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"nativeCodeBundleMode":"asmjs","wasmCompressionMode":false,"split":false,"assetURLFormat":"runtime-resolved","output":"C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\build\\web-mobile\\cocos-js","flags":{"DEBUG":false,"WEBGPU":false},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.4\\resources\\resources\\3d\\engine"}
+6-25-2026 16:20:23 - debug: Build engine in (79 ms) √, progress: 19%
+6-25-2026 16:20:23 - debug: Copy plugin script ..., progress: 19%
+6-25-2026 16:20:23 - debug: Generate import-map..., progress: 19%
+6-25-2026 16:20:23 - debug: // ---- build task Build script ---- (6377ms)
+6-25-2026 16:20:23 - debug: run build task Build script success in 6 s√, progress: 24%
+6-25-2026 16:20:23 - debug: [Build Memory track]: Build script start:186.55MB, end 185.80MB, increase: -767.60KB
+6-25-2026 16:20:23 - debug: Build Assets start, progress: 24%
+6-25-2026 16:20:23 - debug: // ---- build task Build Assets ----
+6-25-2026 16:20:23 - debug: Build bundles..., progress: 24%
+6-25-2026 16:20:23 - debug: Pack Images start, progress: 24%
+6-25-2026 16:20:24 - debug: builder:pack-auto-atlas-image (47ms)
+6-25-2026 16:20:24 - debug: Pack Images success, progress: 24%
+6-25-2026 16:20:24 - debug: Compress image start..., progress: 24%
+6-25-2026 16:20:24 - group: Compress image...
+6-25-2026 16:20:24 - debug: sort compress task {}
+6-25-2026 16:20:24 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+6-25-2026 16:20:24 - debug: No image need to compress
+6-25-2026 16:20:24 - groupEnd: Compress image...
+6-25-2026 16:20:24 - debug: Compress image success..., progress: 24%
+6-25-2026 16:20:24 - debug: Output asset in bundles start, progress: 24%
+6-25-2026 16:20:24 - debug: Handle all json groups in bundle internal
+6-25-2026 16:20:24 - debug: handle json group
+6-25-2026 16:20:24 - debug: Handle all json groups in bundle resources
+6-25-2026 16:20:24 - debug: handle json group
+6-25-2026 16:20:24 - debug: Handle all json groups in bundle main
+6-25-2026 16:20:24 - debug: handle json group
+6-25-2026 16:20:24 - debug: Json group(0b01c74a0) compile success，json number: 6
+6-25-2026 16:20:24 - debug: handle single json
+6-25-2026 16:20:24 - debug: Json group(04d4f9b29) compile success，json number: 6
+6-25-2026 16:20:24 - debug: Json group(09fcbdf13) compile success，json number: 6
+6-25-2026 16:20:24 - debug: Json group(0b4c72f39) compile success，json number: 6
+6-25-2026 16:20:24 - debug: Json group(071e692f9) compile success，json number: 6
+6-25-2026 16:20:24 - debug: Json group(0e7467712) compile success，json number: 6
+6-25-2026 16:20:24 - debug: Json group(077a9bf04) compile success，json number: 6
+6-25-2026 16:20:24 - debug: Json group(09a92f563) compile success，json number: 6
+6-25-2026 16:20:24 - debug: handle single json
+6-25-2026 16:20:24 - debug: Json group(04a24a547) compile success，json number: 6
+6-25-2026 16:20:24 - debug: handle single json
+6-25-2026 16:20:24 - debug: Output asset in bundles success, progress: 24%
+6-25-2026 16:20:24 - debug: Output asset in bundles start, progress: 24%
+6-25-2026 16:20:24 - debug: compress config of bundle internal...
+6-25-2026 16:20:24 - debug: compress config of bundle internal success
+6-25-2026 16:20:24 - debug: compress config of bundle resources...
+6-25-2026 16:20:24 - debug: compress config of bundle resources success
+6-25-2026 16:20:24 - debug: compress config of bundle main...
+6-25-2026 16:20:24 - debug: compress config of bundle main success
+6-25-2026 16:20:24 - debug: output config of bundle internal
+6-25-2026 16:20:24 - debug: output config of bundle internal success
+6-25-2026 16:20:24 - debug: output config of bundle resources
+6-25-2026 16:20:24 - debug: output config of bundle resources success
+6-25-2026 16:20:24 - debug: output config of bundle main
+6-25-2026 16:20:24 - debug: output config of bundle main success
+6-25-2026 16:20:24 - debug: Output asset in bundles success, progress: 24%
+6-25-2026 16:20:24 - debug: // ---- build task Build Assets ---- (458ms)
+6-25-2026 16:20:24 - debug: run build task Build Assets success in 458 ms√, progress: 29%
+6-25-2026 16:20:24 - debug: [Build Memory track]: Build Assets start:185.83MB, end 202.01MB, increase: 16.18MB
+6-25-2026 16:20:24 - debug: Sort some build options to settings.json start, progress: 29%
+6-25-2026 16:20:24 - debug: // ---- build task Sort some build options to settings.json ----
+6-25-2026 16:20:24 - debug: // ---- build task Sort some build options to settings.json ---- (17ms)
+6-25-2026 16:20:24 - debug: run build task Sort some build options to settings.json success in 17 ms√, progress: 31%
+6-25-2026 16:20:24 - debug: [Build Memory track]: Sort some build options to settings.json start:202.11MB, end 202.19MB, increase: 76.35KB
+6-25-2026 16:20:24 - debug: Fill script data to settings start, progress: 31%
+6-25-2026 16:20:24 - debug: // ---- build task Fill script data to settings ----
+6-25-2026 16:20:24 - debug: // ---- build task Fill script data to settings ---- (20ms)
+6-25-2026 16:20:24 - debug: run build task Fill script data to settings success in 20 ms√, progress: 32%
+6-25-2026 16:20:24 - debug: [Build Memory track]: Fill script data to settings start:202.22MB, end 202.29MB, increase: 76.11KB
+6-25-2026 16:20:24 - debug: Sort some build options to settings.json start, progress: 32%
+6-25-2026 16:20:24 - debug: // ---- build task Sort some build options to settings.json ----
+6-25-2026 16:20:25 - debug: // ---- build task Sort some build options to settings.json ---- (835ms)
+6-25-2026 16:20:25 - debug: run build task Sort some build options to settings.json success in 835 ms√, progress: 34%
+6-25-2026 16:20:25 - debug: [Build Memory track]: Sort some build options to settings.json start:202.33MB, end 202.62MB, increase: 296.45KB
+6-25-2026 16:20:25 - debug: web-mobile:(onBeforeCompressSettings) start..., progress: 34%
+6-25-2026 16:20:25 - debug: // ---- build task web-mobile：onBeforeCompressSettings ----
+6-25-2026 16:20:25 - debug: // ---- build task web-mobile：onBeforeCompressSettings ---- (21ms)
+6-25-2026 16:20:25 - debug: web-mobile:(onBeforeCompressSettings) in 21 ms ✓, progress: 36%
+6-25-2026 16:20:25 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 36%
+6-25-2026 16:20:25 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+6-25-2026 16:20:25 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (133ms)
+6-25-2026 16:20:25 - debug: cocos-service:(onBeforeCompressSettings) in 133 ms ✓, progress: 38%
+6-25-2026 16:20:25 - debug: Sort build template start, progress: 38%
+6-25-2026 16:20:25 - debug: // ---- build task Sort build template ----
+6-25-2026 16:20:25 - debug: // ---- build task Sort build template ---- (80ms)
+6-25-2026 16:20:25 - debug: run build task Sort build template success in 80 ms√, progress: 43%
+6-25-2026 16:20:25 - debug: [Build Memory track]: Sort build template start:202.89MB, end 201.78MB, increase: -1139.50KB
+6-25-2026 16:20:25 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 43%
+6-25-2026 16:20:25 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+6-25-2026 16:20:25 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (217ms)
+6-25-2026 16:20:25 - debug: cocos-service:(onAfterCompressSettings) in 217 ms ✓, progress: 45%
+6-25-2026 16:20:25 - debug: web-mobile:(onBeforeCopyBuildTemplate) start..., progress: 45%
+6-25-2026 16:20:25 - debug: // ---- build task web-mobile：onBeforeCopyBuildTemplate ----
+6-25-2026 16:20:25 - debug: // ---- build task web-mobile：onBeforeCopyBuildTemplate ---- (32ms)
+6-25-2026 16:20:25 - debug: web-mobile:(onBeforeCopyBuildTemplate) in 32 ms ✓, progress: 46%
+6-25-2026 16:20:25 - debug: Add md5 suffix to assets start, progress: 46%
+6-25-2026 16:20:25 - debug: // ---- build task Add md5 suffix to assets ----
+6-25-2026 16:20:25 - debug: // ---- build task Add md5 suffix to assets ---- (28ms)
+6-25-2026 16:20:25 - debug: run build task Add md5 suffix to assets success in 28 ms√, progress: 56%
+6-25-2026 16:20:25 - debug: [Build Memory track]: Add md5 suffix to assets start:204.75MB, end 204.86MB, increase: 108.07KB
+6-25-2026 16:20:25 - debug: cocos-service:(onAfterBuild) start..., progress: 56%
+6-25-2026 16:20:25 - debug: // ---- build task cocos-service：onAfterBuild ----
+6-25-2026 16:20:25 - debug: // ---- build task cocos-service：onAfterBuild ---- (105ms)
+6-25-2026 16:20:25 - debug: cocos-service:(onAfterBuild) in 105 ms ✓, progress: 58%
+6-25-2026 16:20:25 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 58%
+6-25-2026 16:20:25 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+6-25-2026 16:20:25 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (20ms)
+6-25-2026 16:20:25 - debug: adsense-h5g-plugin:(onAfterBuild) in 20 ms ✓, progress: 60%
+6-25-2026 16:20:25 - debug: super-html:(onAfterBuild) start..., progress: 60%
+6-25-2026 16:20:25 - debug: // ---- build task super-html：onAfterBuild ----
+6-25-2026 16:20:25 - log: super-html : -- start --
+6-25-2026 16:20:25 - log: super-html : engine version 3.8.4
+6-25-2026 16:20:27 - debug: // ---- build task super-html：onAfterBuild ---- (1099ms)
+6-25-2026 16:20:27 - debug: super-html:(onAfterBuild) in 1099 ms ✓, progress: 62%
+6-25-2026 16:20:27 - log: Asset DB is resume!
+6-25-2026 16:20:27 - debug: builder:build-project-total (10338ms)
+6-25-2026 16:20:27 - debug: build success in 10338!
+6-25-2026 16:20:27 - debug: [Build Memory track]: builder:build-project-total start:181.28MB, end 193.67MB, increase: 12.39MB
+6-25-2026 16:20:27 - debug: ================================ build Task (web-mobile) Finished in (10 s)ms ================================

@@ -108,7 +108,7 @@ export class Gamecontroller extends Component {
         if (this.completedBusCount === 3 && !this.hasOpenedStoreAtMove3) {
             this.hasOpenedStoreAtMove3 = true;
             input.once(Input.EventType.TOUCH_START, () => {
-                this.store.active = true;
+                // this.store.active = true;
                 GlobalEvent.instance().dispatchEvent(GlobalEvent.OPEN_STORE);
             });
         }

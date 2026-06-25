@@ -22,7 +22,7 @@ export default class PlayableAdsController extends Component {
         macro.ENABLE_TRANSPARENT_CANVAS = true;
         if (this.isBuild) console.log = () => { };
         if (this.isBuild) console.warn = () => { };
-        //if (this.isBuild) console.error = () => { };
+        if (this.isBuild) console.error = () => { };
         (window as any).gameReady && (window as any).gameReady();
         // super_html_playable.set_app_store_url(iosUrl);
         super_html_playable.set_google_play_url(androidUrl);

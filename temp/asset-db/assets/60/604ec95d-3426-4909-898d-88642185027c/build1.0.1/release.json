@@ -1,0 +1,137 @@
+[
+    1,
+    [
+        "42VLj2Jr9NkZxphB3wJwDg@6c48a",
+        "76rGl36JJEVZxd5Ql1YqiM"
+    ],
+    [
+        "mainTexture",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            0,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    ],
+    [
+        [
+            0,
+            "road",
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {},
+                {},
+                {},
+                {}
+            ],
+            [
+                [
+                    [
+                        {},
+                        "color1",
+                        8,
+                        [
+                            4,
+                            4294166457
+                        ],
+                        "color2",
+                        8,
+                        [
+                            4,
+                            4286407510
+                        ],
+                        "mainTexture",
+                        6,
+                        0
+                    ],
+                    {},
+                    {},
+                    [
+                        {
+                            "lineWidth": 22.2
+                        },
+                        "baseColor",
+                        8,
+                        [
+                            4,
+                            4278190192
+                        ]
+                    ]
+                ],
+                11,
+                0,
+                0,
+                11
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0
+    ],
+    [
+        0,
+        1
+    ],
+    [
+        0,
+        1
+    ]
+]
