@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, tween, Vec3, Quat, Tween } from 'cc';
 import { Point } from '../Point/Point';
-import { BusController } from '../Controller/BusController';
+import type { BusController } from '../Controller/BusController';
 const { ccclass, property } = _decorator;
 
 @ccclass('WayPoint')
@@ -34,7 +34,7 @@ export class WayPoint extends Component {
             characterNode.setWorldPosition(worldPos);
             characterNode.setWorldRotation(worldRot);
             const point = this.listWayPoints[i].getComponent(Point);
-            const busCtrl = characterNode.getComponent(BusController);
+            const busCtrl = characterNode.getComponent('BusController') as any;
 
             if (!busCtrl.isOneWay) {
                 point.moveWithRotation(characterNode);

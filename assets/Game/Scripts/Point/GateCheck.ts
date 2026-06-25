@@ -1,7 +1,7 @@
 import { _decorator, Component, easing, Node, tween, Vec3 } from 'cc';
 import { Gamecontroller } from '../Controller/Gamecontroller';
-import { BusController } from '../Controller/BusController';
-import { PathBuilder } from '../PathBuilder';
+import type { BusController } from '../Controller/BusController';
+import { PathBuilder } from '../Movement/PathBuilder';
 
 const { ccclass, property } = _decorator;
 
@@ -20,7 +20,7 @@ export class GateCheck extends Component {
      * Xe vào gate → build path đến stop (nếu là bus) hoặc đi hết waypoints → destroy.
      */
     moveCharTotarget(char: Node): void {
-        const busCtrl = char.getComponent(BusController);
+        const busCtrl = char.getComponent('BusController') as any;
         const stopIdx = busCtrl ? this._resolveStopIdx(busCtrl) : -1;
 
         const lastIdx = (busCtrl && stopIdx >= 0) ? stopIdx : this.wayPoints.length - 1;
@@ -33,7 +33,7 @@ export class GateCheck extends Component {
             });
         } else {
             this._tweenAlongPath(char, points, () => {
-                const bc = char.getComponent(BusController);
+                const bc = char.getComponent('BusController') as any;
                 if (bc) {
                     Gamecontroller.instance.busCompleted();
                 }
@@ -48,7 +48,7 @@ export class GateCheck extends Component {
      * Xe one-way → nếu bus thì delegate sang moveCharTotarget, nếu không thì đi thẳng.
      */
     moveWithOneWay(char: Node): void {
-        if (char.getComponent(BusController)) {
+        if (char.getComponent('BusController')) {
             this.moveCharTotarget(char);
             return;
         }
@@ -58,7 +58,7 @@ export class GateCheck extends Component {
         tween(char)
             .to(moveTime, { worldPosition: this.endPos.worldPosition }, { easing: 'linear' })
             .call(() => {
-                const bc = char.getComponent(BusController);
+                const bc = char.getComponent('BusController') as any;
                 bc?.checkAndDestroyIfOutOfViewport();
                 char.active = false;
             })
@@ -73,7 +73,7 @@ export class GateCheck extends Component {
             this, char.worldPosition, stopIdx, this.endPos,
         );
 
-        const busCtrl = char.getComponent(BusController);
+        const busCtrl = char.getComponent('BusController') as any;
         if (busCtrl) {
             busCtrl.startMovingAlongPath(points, this.speed, wpIndices, () => {
                 busCtrl.checkAndDestroyIfOutOfViewport();

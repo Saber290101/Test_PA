@@ -1,26 +1,13 @@
 import { _decorator, Component, Node, Prefab, Vec3, instantiate, Enum, director } from 'cc';
 import { PassengerController } from './Controller/PassengerController';
-import { BusStop } from './BusStop';
+import type { BusStop } from './BusStop';
 import { BusColor } from './GameEnums';
 import { ColorManager } from './Controller/ColorManager';
-import { BusController } from './Controller/BusController';
 
 const { ccclass, property } = _decorator;
 
 Enum(BusColor);
 
-/**
- * PassengerSpawner – Sinh ra hành khách (Stickman) tại các điểm sinh (BusStop).
- *
- * Cách dùng trong Editor:
- * 1. Tạo Node, thêm component PassengerSpawner.
- * 2. Kéo prefab Stickman vào trường `stickmanPrefab`.
- * 3. Khi chạy, khách tự động được sinh tại các BusStop tìm thấy trong Scene.
- *
- * Cũng có thể gọi runtime:
- *   spawner.spawnAt(busStop, BusColor.RED)
- *   spawner.spawnBatch(busStop, [RED, BLUE, RED])
- */
 @ccclass('PassengerSpawner')
 export class PassengerSpawner extends Component {
 
@@ -33,8 +20,6 @@ export class PassengerSpawner extends Component {
     public maxVisibleQueue: number = 10;
 
     private _remainingPassengerColors: Map<BusStop, BusColor[]> = new Map();
-
-    // ─── Lifecycle ───────────────────────────────
 
     protected onLoad(): void {
         PassengerSpawner.instance = this;
@@ -57,14 +42,8 @@ export class PassengerSpawner extends Component {
         }
     }
 
-    // ─── Public API ──────────────────────────────
-
-    /**
-     * Sinh tất cả khách bằng cách tự động lấy các BusStop trong Scene
-     * và phân phối đều màu sắc từ bể màu xe buýt (bể màu của màn chơi).
-     */
     public spawnAll(): void {
-        const stops = director.getScene()?.getComponentsInChildren(BusStop) || [];
+        const stops = director.getScene()?.getComponentsInChildren('BusStop') as any[] || [];
         if (stops.length === 0) {
             console.warn('[Spawner] ⚠️ Không tìm thấy BusStop nào trong Scene!');
             return;
@@ -106,10 +85,6 @@ export class PassengerSpawner extends Component {
         }
     }
 
-    /**
-     * Hàm được gọi từ BusStop khi 1 hành khách rời hàng đợi.
-     * Sẽ sinh thêm hành khách mới từ hàng chờ nếu còn.
-     */
     public onPassengerDeparted(busStop: BusStop): void {
         const nextColor = this._remainingPassengerColors.get(busStop)?.shift();
         if (nextColor !== undefined) {
@@ -121,9 +96,6 @@ export class PassengerSpawner extends Component {
         return this._remainingPassengerColors.get(busStop)?.length || 0;
     }
 
-    /**
-     * Sinh 1 khách tại bến với màu chỉ định.
-     */
     public spawnAt(busStop: BusStop, color: BusColor): PassengerController | null {
         if (!this.stickmanPrefab) return null;
 
@@ -166,11 +138,11 @@ export class PassengerSpawner extends Component {
 
     private _generateGlobalColorGroups(): BusColor[][] {
         const groups: BusColor[][] = [];
-        const buses = director.getScene()?.getComponentsInChildren(BusController) || [];
+        const buses = director.getScene()?.getComponentsInChildren('BusController') as any[] || [];
         for (const bus of buses) {
             let count = bus.maxPassengers || 4;
             const color = bus.busColor;
-            
+
             // Chia hành khách của xe này thành các nhóm nhỏ (2-4 người) để tránh lẻ tẻ 1 màu
             while (count > 0) {
                 let groupSize = 2; // Mặc định
@@ -184,7 +156,7 @@ export class PassengerSpawner extends Component {
 
                 // Tránh tình trạng nhóm này lấy xong làm thừa lại đúng 1 người
                 if (count - groupSize === 1) {
-                    groupSize -= 1; 
+                    groupSize -= 1;
                 }
 
                 const group = Array(groupSize).fill(color);

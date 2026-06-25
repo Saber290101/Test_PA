@@ -1,5 +1,4 @@
 import { _decorator, geometry, Node, PhysicsSystem, RigidBody, Vec3 } from 'cc';
-import { GateCheck } from '../Point/GateCheck';
 
 /**
  * RaycastUtils – Static utility class for raycast-based movement checks.
@@ -64,7 +63,7 @@ export class RaycastUtils {
         const closest = RaycastUtils._findClosestNonSelf(results, startNode);
         if (!closest) return true;
 
-        return !!closest.collider.node.getComponent(GateCheck);
+        return !!closest.collider.node.getComponent('GateCheck');
     }
 
     /**

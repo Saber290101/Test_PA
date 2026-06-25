@@ -1,11 +1,5 @@
-/**
- * Bus Away - Game Enums & Constants
- * Cocos Creator 3.8.4
- */
-
 import { Color } from 'cc';
 
-/** Màu sắc xe buýt và hành khách */
 export enum BusColor {
     RED = 0,
     BLUE = 1,
@@ -41,11 +35,11 @@ export interface ColorData {
 }
 
 export const COLOR_RGB: { [key: number]: ColorData } = {
-    [BusColor.RED]:    { r: 231, g: 76,  b: 60,  name: 'Red' },
-    [BusColor.BLUE]:   { r: 52,  g: 152, b: 219, name: 'Blue' },
-    [BusColor.YELLOW]: { r: 241, g: 196, b: 15,  name: 'Yellow' },
-    [BusColor.GREEN]:  { r: 46,  g: 204, b: 113, name: 'Green' },
-    [BusColor.PURPLE]: { r: 155, g: 89,  b: 182, name: 'Purple' },
+    [BusColor.RED]: { r: 231, g: 76, b: 60, name: 'Red' },
+    [BusColor.BLUE]: { r: 52, g: 152, b: 219, name: 'Blue' },
+    [BusColor.YELLOW]: { r: 241, g: 196, b: 15, name: 'Yellow' },
+    [BusColor.GREEN]: { r: 46, g: 204, b: 113, name: 'Green' },
+    [BusColor.PURPLE]: { r: 155, g: 89, b: 182, name: 'Purple' },
 };
 
 /** Helper: chuyển BusColor thành cc.Color */

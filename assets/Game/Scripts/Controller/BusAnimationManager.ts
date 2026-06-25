@@ -1,22 +1,17 @@
 import { _decorator, Node, Tween, tween, Vec3 } from 'cc';
 import { BusState } from '../GameEnums';
-import { BusController } from './BusController';
+import type { BusController } from './BusController';
 
-/**
- * Quản lý các hiệu ứng animation (nhún, lắc lư) của xe buýt.
- * Đã được tối ưu để tránh khởi động lại tween không cần thiết và tránh lỗi khóa trục quay Y.
- */
 export class BusAnimationManager {
     private _bus: BusController;
     private _visualNode: Node | null = null;
-    
+
     private _animTween: Tween<Node> | null = null;
     private _wobbleTween: Tween<Node> | null = null;
 
     private _originalScale: Vec3 = new Vec3(1, 1, 1);
     private _originalEuler: Vec3 = new Vec3();
 
-    // Trạng thái hiện tại để tránh restart animation liên tục gây giật lag
     private _currentState: BusState | null = null;
 
     constructor(bus: BusController) {
@@ -25,10 +20,10 @@ export class BusAnimationManager {
 
     public initialize(): void {
         // Ưu tiên tìm node con chứa model thực sự để tween (tránh làm lệch collider/hướng của node gốc)
-        this._visualNode = this._bus.node.getChildByName("Visual") || 
-                           this._bus.node.getChildByName("Model") || 
-                           this._bus.node.children[0] || 
-                           null;
+        this._visualNode = this._bus.node.getChildByName("Visual") ||
+            this._bus.node.getChildByName("Model") ||
+            this._bus.node.children[0] ||
+            null;
 
         if (this._visualNode) {
             this._originalScale.set(this._visualNode.scale);
@@ -70,10 +65,10 @@ export class BusAnimationManager {
 
     private _resetToOriginalTransform(target: Node): void {
         target.setScale(this._originalScale);
-        
+
         // Tối ưu 2: Chỉ reset trục Z (do hiệu ứng lắc lư) và X. 
         // Tuyệt đối KHÔNG reset trục Y vì trục Y quyết định hướng di chuyển của xe (có thể đang xoay ngang/dọc)
-        target.setRotationFromEuler(this._originalEuler.x, target.eulerAngles.y, 0); 
+        target.setRotationFromEuler(this._originalEuler.x, target.eulerAngles.y, 0);
     }
 
     private _playIdleAnimation(target: Node): void {
@@ -106,7 +101,7 @@ export class BusAnimationManager {
         // Việc này ngăn lỗi khóa cứng trục Y (bị kẹt góc quay cũ) trong lúc xe đang rẽ ngoặt.
         this._wobbleTween = tween(target)
             .by(0.15, { eulerAngles: new Vec3(0, 0, 2) }, { easing: 'sineInOut' })
-            .by(0.3,  { eulerAngles: new Vec3(0, 0, -4) }, { easing: 'sineInOut' }) // Lắc ngược lại 4 độ (-2 so với gốc)
+            .by(0.3, { eulerAngles: new Vec3(0, 0, -4) }, { easing: 'sineInOut' }) // Lắc ngược lại 4 độ (-2 so với gốc)
             .by(0.15, { eulerAngles: new Vec3(0, 0, 2) }, { easing: 'sineInOut' })  // Trả về 0
             .union()
             .repeatForever()

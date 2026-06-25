@@ -6,7 +6,6 @@ import { BusStop } from '../BusStop';
 import { ParkingManager } from './ParkingManager';
 import { BusColor, BusState } from '../GameEnums';
 import { ColorManager } from './ColorManager';
-import { PathFollower } from '../PathFollower';
 import { RaycastUtils } from '../Movement/RaycastUtils';
 import { GateCheck } from '../Point/GateCheck';
 import { Gamecontroller } from './Gamecontroller';
@@ -17,17 +16,10 @@ import { BusBoardingManager } from './BusBoardingManager';
 import { BusRouteManager } from './BusRouteManager';
 import { ViewportChecker } from './ViewportChecker';
 import { BusAnimationManager } from './BusAnimationManager';
+import { PathFollower } from '../Movement/PathFollower';
 
 const { ccclass, property } = _decorator;
 
-/**
- * BusController – Component chính điều khiển xe buýt.
- * Đóng vai trò là Facade/Data Holder, giao phó logic thực thi cho các Sub-modules:
- * - BusInitialMovement (Di chuyển thẳng)
- * - BusBoardingManager (Đón khách)
- * - BusRouteManager (Tìm đường, bến đỗ, parking)
- * - ViewportChecker (Kiểm tra xe ngoài màn hình)
- */
 @ccclass('BusController')
 export class BusController extends Component {
 
@@ -56,7 +48,6 @@ export class BusController extends Component {
 
     // ─── Inspector: Bus Config ──────────────────────
 
-    // (Được tự động tìm kiếm bởi BusBoardingManager)
     public passengerSeats: Node[] = [];
 
     @property({ tooltip: 'Sức chứa tối đa (4, 6, hoặc 10)' })
@@ -142,8 +133,6 @@ export class BusController extends Component {
         this.viewportChecker.update();
     }
 
-    // ─── Public Accessors ───────────────────────────
-
     public get state(): BusState { return this._state; }
     public setState(newState: BusState): void {
         this._state = newState;
@@ -154,8 +143,6 @@ export class BusController extends Component {
         if (!this._pathFollower) this._pathFollower = this.getComponent(PathFollower);
         return this._pathFollower!;
     }
-
-    // ─── Input & Interactions ───────────────────────
 
     public onClick(): void {
         if (this.initialMovement.isMoving) return;
@@ -177,7 +164,6 @@ export class BusController extends Component {
 
         this.isParked = false;
         this.setState(BusState.ENTERING);
-        this.setRigidBodyGroup(16);
         this.setCollidersEnabled(true);
 
         if (this.parkingManager && this.parkingSlotIndex >= 0) {
@@ -188,14 +174,10 @@ export class BusController extends Component {
         this.routeManager.handleDriveFromParking();
     }
 
-    // ─── Raycast Helpers ────────────────────────────
-
     public canMove(): boolean {
         if (!this.node?.isValid) return false;
         return RaycastUtils.canMove(this.startNode, this.safeDistance);
     }
-
-    // ─── Bridge to Sub-modules (Backward Compat) ────
 
     public setGateCheckInfo(gateCheck: GateCheck, stopIdx: number): void {
         this.routeManager.setGateCheckInfo(gateCheck, stopIdx);
@@ -212,8 +194,6 @@ export class BusController extends Component {
     public checkAndDestroyIfOutOfViewport(): void {
         this.viewportChecker.startChecking();
     }
-
-    // ─── Component Control Helpers ──────────────────
 
     public setLipActive(active: boolean): void {
         if (this.lip) this.lip.active = active;
@@ -234,8 +214,6 @@ export class BusController extends Component {
             c.enabled = enabled;
         }
     }
-
-    // ─── Private Event Handlers ─────────────────────
 
     private _onReachWaypoint(pathIdx: number, wpIdx: number): void {
         const gateCheck = this.routeManager.gateCheck;

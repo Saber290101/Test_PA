@@ -39,25 +39,16 @@ export class ColorManager extends Component {
         }
     }
 
-    // ─── Bus Material ───────────────────────────
-
-    /** Lấy material xe buýt tương ứng với màu */
     public getMaterialForColor(color: BusColor): Material | null {
         const mapping = this.colorMaterials.find(m => m.color === color);
         return mapping ? mapping.material : null;
     }
 
-    // ─── Stickman Material ──────────────────────
-
-    /** Lấy material stickman tương ứng với màu */
     public getStickmanMaterial(color: BusColor): Material | null {
         const mapping = this.stickmanMaterials.find(m => m.color === color);
         return mapping ? mapping.material : null;
     }
 
-    // ─── Random Color ───────────────────────────
-
-    /** Sinh ngẫu nhiên một màu xe từ các màu có cấu hình material */
     public getRandomConfiguredColor(): BusColor {
         if (this.colorMaterials.length === 0) {
             const allColors = [BusColor.RED, BusColor.BLUE, BusColor.YELLOW, BusColor.GREEN, BusColor.PURPLE];
@@ -67,46 +58,30 @@ export class ColorManager extends Component {
         return this.colorMaterials[randIdx].color;
     }
 
-    // ─── Apply Color ────────────────────────────
-
-    /** Áp dụng material xe buýt hoặc tô màu fallback cho node xe */
     public applyColorToNode(root: Node, color: BusColor): void {
         const customMat = this.getMaterialForColor(color);
         this._applyMaterialOrFallback(root, color, customMat);
     }
 
-    /**
-     * Áp dụng material stickman riêng cho node hành khách.
-     * Nếu chưa kéo stickmanMaterials trong Inspector → fallback sang material xe,
-     * rồi fallback sang tô màu bằng code.
-     */
     public applyStickmanColor(root: Node, color: BusColor): void {
         const stickmanMat = this.getStickmanMaterial(color);
         if (stickmanMat) {
             this._applyMaterialOrFallback(root, color, stickmanMat);
         } else {
-            // Fallback: dùng material xe hoặc tô code
             this.applyColorToNode(root, color);
         }
     }
 
-    // ─── Private ────────────────────────────────
-
     private _applyMaterialOrFallback(root: Node, color: BusColor, material: Material | null): void {
         const shadowNodes = ['Vehicle_04_S', 'Vehicle_06_S', 'Vehicle_10_S'];
+        const allRenderers = root.getComponentsInChildren(MeshRenderer);
 
         if (material) {
-            const allRenderers = root.getComponentsInChildren(MeshRenderer);
             for (const mr of allRenderers) {
-                // Bỏ qua các node chứa shadow cố định
                 if (shadowNodes.includes(mr.node.name)) continue;
-
-                if (mr.sharedMaterials.length > 0) {
-                    mr.setMaterial(material, 0);
-                }
+                if (mr.sharedMaterials.length > 0) mr.setMaterial(material, 0);
             }
         } else {
-            // Fallback sang tô màu bằng code
             const cd = COLOR_RGB[color];
             if (!cd) return;
 
@@ -118,7 +93,6 @@ export class ColorManager extends Component {
                 255,
             );
 
-            const allRenderers = root.getComponentsInChildren(MeshRenderer);
             for (const mr of allRenderers) {
                 // Bỏ qua các node chứa shadow cố định
                 if (shadowNodes.includes(mr.node.name)) continue;

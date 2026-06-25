@@ -636,7 +636,7 @@
         "5cf87a35-21a1-4197-80f0-aaf64e44632e@2875d"
       ],
       "dependScripts": [
-        "f02b4394-8b66-4725-b6d9-ddb4cb004e3f"
+        "b1c16ea9-316f-48bb-a695-b9506a49af8d"
       ]
     },
     "versionCode": 1
@@ -909,7 +909,6 @@
     "value": {
       "depends": [
         "a8d650d1-27ad-4e86-bc5c-34351a0991b3",
-        "c50c6f69-63c5-4a0d-99f6-d994d4da8e4d",
         "604ec95d-3426-4909-898d-88642185027c",
         "07cd295f-e98b-463c-a905-941a32b8593e",
         "830e8baa-6bc5-4916-9c85-f82189661528@a62fe",
@@ -980,10 +979,10 @@
       "dependScripts": [
         "a7ba0b1f-323f-426f-88d7-51908c58f952",
         "f2ac3ceb-a1fb-47db-84fb-6f660d94f779",
+        "7343469a-02a5-4b49-86d4-a0f573ccaf72",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "8a21770f-52ad-4544-b321-a3c713272d4c",
         "27827be9-1832-46fd-8158-1425d84b693f",
-        "618eb1b8-2fff-4e4f-92f5-e9de282841ca",
         "02c36a55-a3b7-4caf-93e6-1b470ed4ab35",
         "c5acdf8d-ccb1-477d-92f9-2d13b2612021",
         "ac16d4a4-04e5-46ad-a81d-cd603e18cc48",
@@ -1402,7 +1401,7 @@
     "url": "db://assets/Game/Prefabs/star/star01.FBX@006b8",
     "value": {
       "depends": [
-        "6caa2b62-5523-46ed-932c-03b8619c2931",
+        "ebfdf382-1d81-4dff-bd37-ac307b8ae587",
         "ced8244a-9035-4f00-9b64-222518474adc@c6026"
       ]
     },
@@ -1575,7 +1574,7 @@
       ],
       "dependScripts": [
         "27827be9-1832-46fd-8158-1425d84b693f",
-        "618eb1b8-2fff-4e4f-92f5-e9de282841ca"
+        "7343469a-02a5-4b49-86d4-a0f573ccaf72"
       ]
     },
     "versionCode": 1
@@ -1601,7 +1600,7 @@
       ],
       "dependScripts": [
         "27827be9-1832-46fd-8158-1425d84b693f",
-        "618eb1b8-2fff-4e4f-92f5-e9de282841ca"
+        "7343469a-02a5-4b49-86d4-a0f573ccaf72"
       ]
     },
     "versionCode": 1
@@ -1627,7 +1626,7 @@
       ],
       "dependScripts": [
         "27827be9-1832-46fd-8158-1425d84b693f",
-        "618eb1b8-2fff-4e4f-92f5-e9de282841ca"
+        "7343469a-02a5-4b49-86d4-a0f573ccaf72"
       ]
     },
     "versionCode": 1
@@ -1643,22 +1642,22 @@
     "versionCode": 1
   },
   "6e2fa564-175c-402b-88d8-8bfd0cb276d5": {
-    "url": "db://assets/Prefab/UI",
+    "url": "db://assets/textures/UI",
     "value": {},
     "versionCode": 1
   },
   "813040c6-4f96-43ef-a120-9bcb65011fe4": {
-    "url": "db://assets/Prefab/UI/Lose",
+    "url": "db://assets/textures/UI/Lose",
     "value": {},
     "versionCode": 1
   },
   "12fcb7cc-fd87-4587-801f-b60058c2f07d": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite",
+    "url": "db://assets/textures/UI/Lose/Sprite",
     "value": {},
     "versionCode": 1
   },
   "da816fa1-ecd5-4137-9065-77cf8a9f678c": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose",
     "value": {},
     "versionCode": 1
   },
@@ -1675,28 +1674,28 @@
     "versionCode": 1
   },
   "10bdb141-5805-4ce4-a929-0b2f73f8de5e": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/f.png",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/f.png",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "8b925ba4-3338-443e-a276-b72df96aa780": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/logo.png",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/logo.png",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "58ee868b-6e29-42d2-8b7f-09e00a383017": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/playNow.png",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/playNow.png",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "58ee868b-6e29-42d2-8b7f-09e00a383017@6c48a": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/playNow.png@6c48a",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/playNow.png@6c48a",
     "value": {
       "depends": [
         "58ee868b-6e29-42d2-8b7f-09e00a383017"
@@ -1705,7 +1704,7 @@
     "versionCode": 1
   },
   "10bdb141-5805-4ce4-a929-0b2f73f8de5e@6c48a": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/f.png@6c48a",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/f.png@6c48a",
     "value": {
       "depends": [
         "10bdb141-5805-4ce4-a929-0b2f73f8de5e"
@@ -1714,7 +1713,7 @@
     "versionCode": 1
   },
   "8b925ba4-3338-443e-a276-b72df96aa780@6c48a": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/logo.png@6c48a",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/logo.png@6c48a",
     "value": {
       "depends": [
         "8b925ba4-3338-443e-a276-b72df96aa780"
@@ -1723,7 +1722,7 @@
     "versionCode": 1
   },
   "58ee868b-6e29-42d2-8b7f-09e00a383017@f9941": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/playNow.png@f9941",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/playNow.png@f9941",
     "value": {
       "depends": [
         "58ee868b-6e29-42d2-8b7f-09e00a383017@6c48a"
@@ -1732,7 +1731,7 @@
     "versionCode": 1
   },
   "8b925ba4-3338-443e-a276-b72df96aa780@f9941": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/logo.png@f9941",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/logo.png@f9941",
     "value": {
       "depends": [
         "8b925ba4-3338-443e-a276-b72df96aa780@6c48a"
@@ -1741,7 +1740,7 @@
     "versionCode": 1
   },
   "10bdb141-5805-4ce4-a929-0b2f73f8de5e@f9941": {
-    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/f.png@f9941",
+    "url": "db://assets/textures/UI/Lose/Sprite/Lose/f.png@f9941",
     "value": {
       "depends": [
         "10bdb141-5805-4ce4-a929-0b2f73f8de5e@6c48a"
@@ -1839,6 +1838,45 @@
         "d3452444-4434-4662-9bb1-45db908aa1e8@6c48a"
       ]
     },
+    "versionCode": 1
+  },
+  "7b76ac44-9c82-464f-a030-abfb9eb2ca1f": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "7df41fb2-f03f-4b9f-8341-05318b2616e5": {
+    "url": "db://assets/resources/effect",
+    "value": {},
+    "versionCode": 1
+  },
+  "68c782ea-8405-45f4-a1ea-d3a0dfbd5ed6": {
+    "url": "db://assets/resources/effect/star",
+    "value": {},
+    "versionCode": 1
+  },
+  "ebfdf382-1d81-4dff-bd37-ac307b8ae587": {
+    "url": "db://assets/resources/effect/star/star01.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b1c16ea9-316f-48bb-a695-b9506a49af8d": {
+    "url": "db://assets/Game/Scripts/Controller/StickmanAnimationController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f1a96c0d-45a5-419d-b798-fb609ecee128": {
+    "url": "db://assets/Game/Scripts/Movement/PathBuilder.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7343469a-02a5-4b49-86d4-a0f573ccaf72": {
+    "url": "db://assets/Game/Scripts/Movement/PathFollower.ts",
+    "value": {},
     "versionCode": 1
   }
 }

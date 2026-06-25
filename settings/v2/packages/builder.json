@@ -9,6 +9,12 @@
         "w": 1
       },
       "type": "color"
-    }
+    },
+    "logo": {
+      "type": "custom",
+      "image": "project://settings/logo.png"
+    },
+    "totalTime": 2000,
+    "displayRatio": 1.5
   }
 }

@@ -1,10 +1,10 @@
 import { director, Vec3 } from 'cc';
-import { BusController } from './BusController';
+import type { BusController } from './BusController';
 import { BusStop } from '../BusStop';
 import { GateCheck } from '../Point/GateCheck';
 import { Gamecontroller } from './Gamecontroller';
-import { PathBuilder } from '../PathBuilder';
 import { BusState } from '../GameEnums';
+import { PathBuilder } from '../Movement/PathBuilder';
 
 /** Index bắt đầu lane trái khi quay về từ parking */
 const LEFT_LANE_START_IDX = 2;
@@ -91,15 +91,14 @@ export class BusRouteManager {
                 this._gateCheck, this._bus.node.worldPosition, fromIdx, slotPos,
             );
             this._parkingDivertIdx = divertIdx;
-            this._movePath(points, wpIndices, () => this._onParked(slotIndex));
+            this._movePath(points, wpIndices, () => this._onParked());
         } else {
-            this._moveTo(slotPos, () => this._onParked(slotIndex));
+            this._moveTo(slotPos, () => this._onParked());
         }
     }
 
     public driveToNextStop(nextStopIdx: number): void {
         this._bus.setState(BusState.RUNNING);
-        // this._bus.setLipActive(true);
 
         if (this._gateCheck && this._currentStopIdx >= 0) {
             const { points, wpIndices } = PathBuilder.buildWaypointPath(
@@ -154,7 +153,7 @@ export class BusRouteManager {
         this._bus.pathFollower.startPath(path, this._bus.speed, [-1, -1], onComplete);
     }
 
-    private _onParked(slotIndex: number): void {
+    private _onParked(): void {
         this._bus.isParked = true;
         this._bus.setState(BusState.PARKED);
         this._bus.setRigidBodyGroup(2);
@@ -215,7 +214,7 @@ export class BusRouteManager {
         const scene = director.getScene();
         if (!scene) return false;
 
-        for (const other of scene.getComponentsInChildren(BusController)) {
+        for (const other of scene.getComponentsInChildren('BusController') as any) {
             if (other === this._bus) continue;
 
             if (other.state === BusState.PICKING) {

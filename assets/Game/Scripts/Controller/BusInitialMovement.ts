@@ -1,5 +1,5 @@
-import { easing, Node, tween, Tween, Vec3 } from 'cc';
-import { BusController } from './BusController';
+import { easing, Node, tween, Vec3 } from 'cc';
+import type { BusController } from './BusController';
 import { Gamecontroller } from './Gamecontroller';
 import { RaycastUtils } from '../Movement/RaycastUtils';
 import { GateCheck } from '../Point/GateCheck';
@@ -20,7 +20,6 @@ export class BusInitialMovement {
     private _targetDist: number = 0;
     private _distMoved: number = 0;
     private _nodeClosest: Node | null = null;
-    private _isHitChar: boolean = false;
     private _isHitGate: boolean = false;
     private _gateCheck: GateCheck | null = null;
 
@@ -35,7 +34,6 @@ export class BusInitialMovement {
     public startMove(): void {
         this._isMoving = true;
         this._distMoved = 0;
-        this._isHitChar = false;
         this._isHitGate = false;
         this._gateCheck = null;
         this._nodeClosest = null;
@@ -49,14 +47,12 @@ export class BusInitialMovement {
             this._bus.setRigidBodyGroup(16);
             this._targetDist = RaycastUtils.MAX_SCAN_DISTANCE;
             this._bus.viewportChecker.startChecking();
-            Gamecontroller.instance.checkCharCanMove();
         } else {
             const gateCheck = result.collider.node.getComponent(GateCheck);
-            const otherBus = result.collider.node.getComponent(BusController);
+            const otherBus = result.collider.node.getComponent('BusController') as any;
 
             if (otherBus) {
                 // Đâm xe khác
-                this._isHitChar = true;
                 this._nodeClosest = result.collider.node;
                 const safeDist = Math.max(0, result.distance - this._bus.safeDistance);
                 this._targetDist = safeDist + this._bus.crashOffset;
@@ -66,10 +62,8 @@ export class BusInitialMovement {
                 this._gateCheck = gateCheck;
                 this._bus.setRigidBodyGroup(16);
                 this._targetDist = result.distance;
-                Gamecontroller.instance.checkCharCanMove();
             } else {
                 // Đâm obstacle → destroy sau khi đến
-                this._isHitChar = true;
                 this._nodeClosest = result.collider.node;
                 this._bus.setCollidersEnabled(false);
                 const safeDist = Math.max(0, result.distance - this._bus.safeDistance);

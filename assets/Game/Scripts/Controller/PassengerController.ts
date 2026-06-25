@@ -1,7 +1,7 @@
-import { _decorator, Component, Node, Vec3, tween, Color, MeshRenderer, SkeletalAnimation, Enum } from 'cc';
-import { BusColor, COLOR_RGB } from '../GameEnums';
+import { _decorator, Component, Node, Vec3, tween, Enum } from 'cc';
+import { BusColor } from '../GameEnums';
 import { ColorManager } from './ColorManager';
-import { StickmanAnimationController } from '../StickmanAnimationController';
+import { StickmanAnimationController } from './StickmanAnimationController';
 
 const { ccclass, property } = _decorator;
 
@@ -29,8 +29,6 @@ export class PassengerController extends Component {
 
         if (ColorManager.instance) {
             ColorManager.instance.applyStickmanColor(this.node, this.passengerColor);
-        } else {
-            this.applyColor();
         }
     }
 
@@ -39,41 +37,6 @@ export class PassengerController extends Component {
         this.passengerColor = color;
         if (ColorManager.instance) {
             ColorManager.instance.applyStickmanColor(this.node, this.passengerColor);
-        } else {
-            this.applyColor();
-        }
-    }
-
-    /** Gán màu lên toàn bộ MeshRenderer con (stickman.effect shader) */
-    public applyColor(): void {
-        const cd = COLOR_RGB[this.passengerColor];
-        if (!cd) return;
-
-        const bodyColor = new Color(cd.r, cd.g, cd.b, 255);
-        const outlineColor = new Color(
-            Math.max(0, cd.r - 80),
-            Math.max(0, cd.g - 80),
-            Math.max(0, cd.b - 80),
-            255,
-        );
-
-        const renderers = this.node.getComponentsInChildren(MeshRenderer);
-        for (const mr of renderers) {
-            const passCount = mr.sharedMaterials.length;
-
-            // Pass 0: body (mainColor)
-            const mat0 = mr.getMaterialInstance(0);
-            if (mat0) {
-                try { mat0.setProperty('mainColor', bodyColor); } catch (_) { }
-            }
-
-            // Pass 3: outline (baseColor) – stickman.effect có 4 passes
-            if (passCount >= 4) {
-                const mat3 = mr.getMaterialInstance(3);
-                if (mat3) {
-                    try { mat3.setProperty('baseColor', outlineColor); } catch (_) { }
-                }
-            }
         }
     }
 

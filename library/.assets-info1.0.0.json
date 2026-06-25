@@ -653,10 +653,6 @@
     "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PathBuilder.ts.meta": {
       "time": 1781491150000
     },
-    "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PathBuilder.ts": {
-      "time": 1781517001204.9268,
-      "uuid": "e3a4cd1d-afd4-4d25-9d0e-f98a235f798e"
-    },
     "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PassengerSpawner.ts.meta": {
       "time": 1781491150000
     },
@@ -667,16 +663,8 @@
     "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\StickmanAnimationController.ts.meta": {
       "time": 1781491150000
     },
-    "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\StickmanAnimationController.ts": {
-      "time": 1781491150000,
-      "uuid": "f02b4394-8b66-4725-b6d9-ddb4cb004e3f"
-    },
     "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PathFollower.ts.meta": {
       "time": 1781491150000
-    },
-    "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PathFollower.ts": {
-      "time": 1781519060585.602,
-      "uuid": "618eb1b8-2fff-4e4f-92f5-e9de282841ca"
     },
     "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Aniamtion": {
       "time": 1782368400959.8374,
@@ -813,18 +801,6 @@
     "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PassengerSpawner.ts": {
       "time": 1782369391275.9304,
       "uuid": "5be72f8c-f8b5-4eac-bb0b-e89eb1daa991"
-    },
-    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PathBuilder.ts": {
-      "time": 1782279282187.5588,
-      "uuid": "e3a4cd1d-afd4-4d25-9d0e-f98a235f798e"
-    },
-    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PathFollower.ts": {
-      "time": 1782351074905.5334,
-      "uuid": "618eb1b8-2fff-4e4f-92f5-e9de282841ca"
-    },
-    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\StickmanAnimationController.ts": {
-      "time": 1782238460695.135,
-      "uuid": "f02b4394-8b66-4725-b6d9-ddb4cb004e3f"
     },
     "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\Controller\\BusController.ts": {
       "time": 1782371133489.3262,
@@ -1574,10 +1550,6 @@
       "time": 1782366795384.6985,
       "uuid": "aed2aad4-fa67-4436-bb3c-f1182bf547c9"
     },
-    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Animation": {
-      "time": 1782368365311.7112,
-      "uuid": "7f3c424f-f34b-4ebb-a197-a34a9691bed7"
-    },
     "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Font": {
       "time": 1782368349439.5144,
       "uuid": "03645702-afa8-4f24-a394-3f5d921a8b34"
@@ -1608,6 +1580,958 @@
     "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\textures\\Warning.png": {
       "time": 1782370041645.9966,
       "uuid": "d3452444-4434-4662-9bb1-45db908aa1e8"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Aniamtion": {
+      "time": 1782371267271.6768,
+      "uuid": "02808bcc-55a2-4477-98b0-0ba9ddbb9b2d"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Font": {
+      "time": 1782371267276.2576,
+      "uuid": "03645702-afa8-4f24-a394-3f5d921a8b34"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game": {
+      "time": 1782371267451.5906,
+      "uuid": "46846a8b-ab2c-4ef0-951a-7577ac82404d"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material": {
+      "time": 1782371267742.1243,
+      "uuid": "fcb1f058-a19e-45cb-8bda-7b8bfe8d518f"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials": {
+      "time": 1782371267820.414,
+      "uuid": "0ed10b65-4908-4ce6-8c29-2b3801f3d6ae"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes": {
+      "time": 1782371267882.0305,
+      "uuid": "19e196c9-e2de-4efc-832a-24537bfd6282"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab": {
+      "time": 1782372085227.9553,
+      "uuid": "6655c468-efb2-42be-8c5c-93488ce4c771"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders": {
+      "time": 1782371267967.4624,
+      "uuid": "603316bb-a15f-45fb-bdc4-db2985549859"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures": {
+      "time": 1782372085227.9553,
+      "uuid": "c105effe-c943-49f0-81f9-0678afdf131c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Effect": {
+      "time": 1782371267297.5244,
+      "uuid": "e26bac05-66b4-4e8a-b805-dcbcf41db714"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs": {
+      "time": 1782371267399.9138,
+      "uuid": "f827f709-caab-4022-8fb4-b8a24719d07f"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scene": {
+      "time": 1782371267446.9685,
+      "uuid": "2cc26abd-a898-49ab-9f87-9609a53ee842"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts": {
+      "time": 1782373183117.1523,
+      "uuid": "a010ec38-925e-4ca6-9804-3a675875eeb4"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman": {
+      "time": 1782371267777.473,
+      "uuid": "97064407-d9a3-4aef-aec2-1dc4205f1ebe"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Effect\\hitTrigger": {
+      "time": 1782371267311.552,
+      "uuid": "26b16a3a-359c-4c48-8147-8e3e35afec11"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Effect": {
+      "time": 1782371267336.211,
+      "uuid": "c94eac04-6f1f-41bb-ab54-f39ed427c397"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch": {
+      "time": 1782371267345.5957,
+      "uuid": "77ecc29a-7a16-452e-b603-373e6560825c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star": {
+      "time": 1782371267439.7244,
+      "uuid": "b6a394e5-2740-4314-a7af-c81f5f402e3d"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller": {
+      "time": 1782373183119.3977,
+      "uuid": "437b56a9-c38a-4d51-af38-f8f77d20d6cb"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\HandleInput": {
+      "time": 1782371267605.3728,
+      "uuid": "b1264d33-ee9e-4dd2-97bb-6ecf4adc8197"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Movement": {
+      "time": 1782373183119.9028,
+      "uuid": "c270883d-593b-4f14-ac6c-a33c4310a5d6"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Point": {
+      "time": 1782371267625.2527,
+      "uuid": "4fce5c5f-8583-4198-80aa-9b438c5358ff"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility": {
+      "time": 1782371267683.6458,
+      "uuid": "cac2cd7a-0d8d-494e-8915-dadb69fe2935"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\WayPoint": {
+      "time": 1782371267696.3247,
+      "uuid": "50b2911d-a3f1-4250-81a7-3afed01b2797"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch": {
+      "time": 1782371267350.2285,
+      "uuid": "a1c78b01-9ab2-412d-a6c7-c4c58a59ea38"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Event": {
+      "time": 1782371267674.9688,
+      "uuid": "c612ed55-e6a8-47b1-8a2a-4b72fb25c4dd"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Playable": {
+      "time": 1782371267681.17,
+      "uuid": "80af56f7-496d-452f-acea-5720a97c56a9"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Pool": {
+      "time": 1782371267688.5605,
+      "uuid": "99f56443-fb44-454a-9b44-ff99b16b55d7"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww": {
+      "time": 1782371267394.6362,
+      "uuid": "2e73f7a2-ed8a-4247-a138-4317f5a8899d"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\asset.effect": {
+      "time": 1782238461020.0085,
+      "uuid": "8d5ee353-c9ad-4613-9f1a-6a8c024410df"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\FakeShadow.effect": {
+      "time": 1782238461025.9377,
+      "uuid": "9d81183b-21b8-4684-abe3-bba94a09e6d1"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\road.effect": {
+      "time": 1782238461032.0547,
+      "uuid": "76ac6977-e892-4455-9c5d-e5097562a88c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\stickman.effect": {
+      "time": 1782238461038.8887,
+      "uuid": "e96ecfad-5bfb-400a-8743-0aca0acc1ce4"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\vehicle.effect": {
+      "time": 1782238461044.8313,
+      "uuid": "43828036-a332-4ad1-ae12-67e57a07819b"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\BusStop.ts": {
+      "time": 1782373133791.2932,
+      "uuid": "02c36a55-a3b7-4caf-93e6-1b470ed4ab35"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\GameEnums.ts": {
+      "time": 1782372830272.054,
+      "uuid": "9594ac36-605c-477c-bdd0-b1aae9af1e29"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\PassengerSpawner.ts": {
+      "time": 1782374011839.594,
+      "uuid": "5be72f8c-f8b5-4eac-bb0b-e89eb1daa991"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusAnimationManager.ts": {
+      "time": 1782374493700.4011,
+      "uuid": "f0fe0f85-348d-4469-b69f-0eac729fdf3b"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusBoardingManager.ts": {
+      "time": 1782374491686.8137,
+      "uuid": "8b60356c-1920-4848-abb8-c8d1f8abecbe"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusController.ts": {
+      "time": 1782372949898.9543,
+      "uuid": "27827be9-1832-46fd-8158-1425d84b693f"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusInitialMovement.ts": {
+      "time": 1782374036672.59,
+      "uuid": "a1e98db9-c599-4246-839f-3d9ee9dd72a0"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusRouteManager.ts": {
+      "time": 1782374489672.164,
+      "uuid": "abc9da1a-27b9-449a-8e82-e7727f548920"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\ColorManager.ts": {
+      "time": 1782372987676.2952,
+      "uuid": "d8fdbcc1-f084-4787-b14a-cb72bf4f2d7c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\Gamecontroller.ts": {
+      "time": 1782374672843.4946,
+      "uuid": "a7ba0b1f-323f-426f-88d7-51908c58f952"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\GameLoseController.ts": {
+      "time": 1782371763210.0325,
+      "uuid": "c5acdf8d-ccb1-477d-92f9-2d13b2612021"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\GameWinController.ts": {
+      "time": 1782374680082.0005,
+      "uuid": "ac16d4a4-04e5-46ad-a81d-cd603e18cc48"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\ParkingManager.ts": {
+      "time": 1782374517821.4966,
+      "uuid": "8a21770f-52ad-4544-b321-a3c713272d4c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\PassengerController.ts": {
+      "time": 1782373139229.6296,
+      "uuid": "3b0817d7-32ba-4b3d-b133-5725518c8082"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\ViewportChecker.ts": {
+      "time": 1782280993206.384,
+      "uuid": "61bdf4ce-ab37-4f7a-a95a-eaf95f87c6f6"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\HandleInput\\HandleInputListener.ts": {
+      "time": 1782374645504.9885,
+      "uuid": "086ea6ab-b974-4fca-8fca-aa9c250dec75"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Movement\\RaycastUtils.ts": {
+      "time": 1782374161208.293,
+      "uuid": "2ce1cc8d-7be4-42d0-8c80-d7a385897e58"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Point\\GateCheck.ts": {
+      "time": 1782374519840.01,
+      "uuid": "f2ac3ceb-a1fb-47db-84fb-6f660d94f779"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Point\\Point.ts": {
+      "time": 1782374546325.1477,
+      "uuid": "963154be-54c0-433d-b42e-7a97adefba83"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Constant.ts": {
+      "time": 1782345866979.0159,
+      "uuid": "3d7bf4d3-41e6-4017-8ca7-04f6cde6da86"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\EventManager.ts": {
+      "time": 1782238460806.2856,
+      "uuid": "7a43a120-4a81-46d4-b0a4-f68f3774e370"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Global.ts": {
+      "time": 1782238460812.2644,
+      "uuid": "0eb13937-fc61-43f6-92e7-d77a420e9fb4"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\GlobalVariable.ts": {
+      "time": 1782345867023.8577,
+      "uuid": "915dff83-9cd0-463e-a0c2-690c30a46582"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Singleton.ts": {
+      "time": 1782345867031.3674,
+      "uuid": "47a0055e-a868-40d2-8376-f32aac6c29d5"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\SoundManager.ts": {
+      "time": 1782345867031.3674,
+      "uuid": "5531da27-2d72-4617-bcb8-6a106ce3d572"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\super_html_playable.ts": {
+      "time": 1782345867037.5735,
+      "uuid": "da6a5608-429d-4ff1-91b1-26e0a2168d2f"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Utility.ts": {
+      "time": 1782345867035.4092,
+      "uuid": "a7a74d4c-7252-4b85-b7a3-7254ab773751"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\WayPoint\\WayPoint.ts": {
+      "time": 1782374544305.0938,
+      "uuid": "7cacee08-b769-4b89-af71-4a08c54f44ce"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Event\\BaseEvent.ts": {
+      "time": 1782238460818.8098,
+      "uuid": "ffc84bd9-b69e-46d3-9d01-7fdcd59c3d39"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Event\\GlobalEvent.ts": {
+      "time": 1782238460824.9336,
+      "uuid": "dfe49ee2-e43f-4925-b9c2-b34bc49445b9"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Playable\\PlayableAdsController.ts": {
+      "time": 1782366293063.7903,
+      "uuid": "0c0a667d-fc13-45f5-91c1-ad4da1384fc5"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Pool\\BasePool.ts": {
+      "time": 1782345867028.299,
+      "uuid": "2d911f3d-6137-4b77-a28b-437b0f900865"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Pool\\PoolManager.ts": {
+      "time": 1782345867028.299,
+      "uuid": "21120d49-6ef4-4a7c-856f-c4626ada150a"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Aniamtion.meta": {
+      "time": 1782238460428.5603
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Font.meta": {
+      "time": 1782368349434.4421
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game.meta": {
+      "time": 1782238460432.9084
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material.meta": {
+      "time": 1782238460434.9075
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials.meta": {
+      "time": 1782238460438.6655
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes.meta": {
+      "time": 1782238460440.871
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab.meta": {
+      "time": 1782370069916.0688
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders.meta": {
+      "time": 1782238460446.5598
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures.meta": {
+      "time": 1782238460449.0662
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Effect.meta": {
+      "time": 1782238460464.0164
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs.meta": {
+      "time": 1782238460466.2488
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scene.meta": {
+      "time": 1782238460470.0361
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts.meta": {
+      "time": 1782238460473.075
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman.meta": {
+      "time": 1782238460866.8525
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Effect\\hitTrigger.meta": {
+      "time": 1782238460477.7458
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Effect.meta": {
+      "time": 1782238460500.4082
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch.meta": {
+      "time": 1782238460501.9937
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star.meta": {
+      "time": 1782238460505.6245
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller.meta": {
+      "time": 1782238460638.7063
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\HandleInput.meta": {
+      "time": 1782238460661.3164
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Movement.meta": {
+      "time": 1782238460666.7356
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Point.meta": {
+      "time": 1782238460690.8564
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility.meta": {
+      "time": 1782238460700.6687
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\WayPoint.meta": {
+      "time": 1782238460703.3113
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch.meta": {
+      "time": 1782238460519.8232
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Event.meta": {
+      "time": 1782238497205.3215
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Playable.meta": {
+      "time": 1782346194929.2449
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Pool.meta": {
+      "time": 1782346194930.2546
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww.meta": {
+      "time": 1782238460523.9348
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\asset.effect.meta": {
+      "time": 1782238461023.649
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\FakeShadow.effect.meta": {
+      "time": 1782238461029.9717
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\BusStop.ts.meta": {
+      "time": 1782238460636.179
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\road.effect.meta": {
+      "time": 1782238461035.7566
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\stickman.effect.meta": {
+      "time": 1782238461041.4841
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\shaders\\vehicle.effect.meta": {
+      "time": 1782238461047.6985
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\GameEnums.ts.meta": {
+      "time": 1782238460656.3994
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\PassengerSpawner.ts.meta": {
+      "time": 1782238460674.6475
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusAnimationManager.ts.meta": {
+      "time": 1782344124702.3848
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusBoardingManager.ts.meta": {
+      "time": 1782281324171.933
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusController.ts.meta": {
+      "time": 1782238460711.7292
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusInitialMovement.ts.meta": {
+      "time": 1782281324172.9326
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\BusRouteManager.ts.meta": {
+      "time": 1782281324172.9326
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\ColorManager.ts.meta": {
+      "time": 1782238460725.4539
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\Gamecontroller.ts.meta": {
+      "time": 1782238460731.6345
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\GameLoseController.ts.meta": {
+      "time": 1782238460738.569
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\GameWinController.ts.meta": {
+      "time": 1782238460744.8125
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\ParkingManager.ts.meta": {
+      "time": 1782238460751.4666
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\PassengerController.ts.meta": {
+      "time": 1782238460758.8718
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\ViewportChecker.ts.meta": {
+      "time": 1782281324174.083
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\HandleInput\\HandleInputListener.ts.meta": {
+      "time": 1782238460767.694
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Movement\\RaycastUtils.ts.meta": {
+      "time": 1782280465226.7915
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Point\\GateCheck.ts.meta": {
+      "time": 1782238460792.7136
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Point\\Point.ts.meta": {
+      "time": 1782238460797.8286
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Constant.ts.meta": {
+      "time": 1782346194935.8037
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\EventManager.ts.meta": {
+      "time": 1782238460808.8054
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Global.ts.meta": {
+      "time": 1782238497632.3784
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\GlobalVariable.ts.meta": {
+      "time": 1782346194936.8113
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Singleton.ts.meta": {
+      "time": 1782346194938.901
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\SoundManager.ts.meta": {
+      "time": 1782346194939.9128
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\super_html_playable.ts.meta": {
+      "time": 1782346194939.9128
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Utility.ts.meta": {
+      "time": 1782346194944.4597
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\WayPoint\\WayPoint.ts.meta": {
+      "time": 1782238460836.3167
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Event\\BaseEvent.ts.meta": {
+      "time": 1782238460820.9453
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Event\\GlobalEvent.ts.meta": {
+      "time": 1782238460827.451
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Playable\\PlayableAdsController.ts.meta": {
+      "time": 1782345867027.1655
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Pool\\BasePool.ts.meta": {
+      "time": 1782345867028.299
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Utility\\Pool\\PoolManager.ts.meta": {
+      "time": 1782345867029.3022
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Aniamtion\\barrier open.anim": {
+      "time": 1782238460454.7405,
+      "uuid": "027e57d0-a1c8-4833-a6ba-143c1fe2bf4c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Aniamtion\\bottomtext.anim": {
+      "time": 1782368349434.4421,
+      "uuid": "a2b2fad0-6df7-4e42-80af-08e70b67a00f"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Aniamtion\\Pulse_UI.anim": {
+      "time": 1782366795384.6985,
+      "uuid": "aed2aad4-fa67-4436-bb3c-f1182bf547c9"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Font\\Ubuntu-Bold.ttf": {
+      "time": 1782368349439.5144,
+      "uuid": "d0ec5c3f-cd9f-42a5-bac9-62ca2fd97d15"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\blue.mtl": {
+      "time": 1782238460842.9578,
+      "uuid": "c0b0a422-2f7f-4cb8-b5f5-e35c420324f8"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\green.mtl": {
+      "time": 1782238460849.9536,
+      "uuid": "2e1136b1-089e-4e10-90b1-4b7f37beb082"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\purple.mtl": {
+      "time": 1782238460855.3945,
+      "uuid": "31a4d5bc-b24e-4469-9e1c-6b368ad4a3ba"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\red.mtl": {
+      "time": 1782238460861.2124,
+      "uuid": "8f924403-3df2-42fe-9d7a-b3ccf57f186a"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\yellow.mtl": {
+      "time": 1782238460870.185,
+      "uuid": "51d60bb2-e94d-4821-ad35-f7e91deafb8f"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\asset.mtl": {
+      "time": 1782238460915.486,
+      "uuid": "78d1a325-84ea-41f2-9beb-d34866ed0bc7"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\BG.mtl": {
+      "time": 1782238460921.8667,
+      "uuid": "aadfcd84-23bf-4432-a257-fb3f5de96b26"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\fake-shadow.mtl": {
+      "time": 1782238460929.0261,
+      "uuid": "07cd295f-e98b-463c-a905-941a32b8593e"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\road.mtl": {
+      "time": 1782238460935.639,
+      "uuid": "604ec95d-3426-4909-898d-88642185027c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\stickman.mtl": {
+      "time": 1782238460942.3032,
+      "uuid": "84342d7f-b856-4b5d-b365-3f503d0db3af"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\tire-mat.mtl": {
+      "time": 1782238460949.0806,
+      "uuid": "0778184e-0d7c-423c-843b-b96200ceafeb"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Barrier.fbx": {
+      "time": 1782238460957.9502,
+      "uuid": "4d557967-8bb2-4ccb-842b-7306d0100439"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Ground.fbx": {
+      "time": 1782238460965.608,
+      "uuid": "830e8baa-6bc5-4916-9c85-f82189661528"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Road.fbx": {
+      "time": 1782238460972.8347,
+      "uuid": "f0865f55-c017-4de3-9faf-756216690981"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Sign.fbx": {
+      "time": 1782238460978.6716,
+      "uuid": "a2bc38fd-c0ef-4da2-a699-17ba66c27d59"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Stickman.fbx": {
+      "time": 1782238460985.929,
+      "uuid": "5cf87a35-21a1-4197-80f0-aaf64e44632e"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Vehicle_04.fbx": {
+      "time": 1782238460992.5344,
+      "uuid": "47b3ae55-94e9-40c3-8bb8-b284530656db"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Vehicle_06.fbx": {
+      "time": 1782238460997.485,
+      "uuid": "4588f6c7-a251-4a70-b9d1-788b467c750c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Vehicle_10.fbx": {
+      "time": 1782238461004.5693,
+      "uuid": "259f1dba-0cd3-4d59-88dd-ef339ade9fa3"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\Car_10.prefab": {
+      "time": 1782373324646.5437,
+      "uuid": "c4eb5a42-68d3-47be-8d4b-783330414e99"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\Car_4.prefab": {
+      "time": 1782373305436.3877,
+      "uuid": "4b14c25a-8155-48b2-88c7-abf85adf6e56"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\Car_6.prefab": {
+      "time": 1782373312549.7805,
+      "uuid": "3546e55b-9532-4803-92ab-730a165e1069"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\Stickman.prefab": {
+      "time": 1782373368727.2957,
+      "uuid": "d0f45b6d-bcf4-40de-8531-9883f9d81d2f"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Asset_Texture.png": {
+      "time": 1782366686430.2207,
+      "uuid": "27d6727e-1490-41dc-9c23-fb0f098dad6c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\FakeShadow.png": {
+      "time": 1782366686435.2512,
+      "uuid": "2f016bfa-103d-4510-9b33-9c4cf192f784"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Matcap.png": {
+      "time": 1782366686440.312,
+      "uuid": "75bb4f04-4be2-48fa-b52f-68c3ffa1d0dc"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Road_Mask.png": {
+      "time": 1782238461077.2568,
+      "uuid": "4254b8f6-26bf-4d91-9c69-841df02700e0"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\slot.png": {
+      "time": 1782238461083.3386,
+      "uuid": "73cb8b3c-4a05-4297-9f46-009cbad4e9bb"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Vehicle.png": {
+      "time": 1782366686420.5544,
+      "uuid": "c9b89418-a118-442a-860f-f110c717ba4b"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Warning.png": {
+      "time": 1782370041645.9966,
+      "uuid": "d3452444-4434-4662-9bb1-45db908aa1e8"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scene\\Test.scene": {
+      "time": 1782373782699.577,
+      "uuid": "a8d650d1-27ad-4e86-bc5c-34351a0991b3"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\blue.mtl": {
+      "time": 1782238460879.4424,
+      "uuid": "82f6fa12-7df8-473a-a6aa-1765778f6114"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\green.mtl": {
+      "time": 1782238460886.2803,
+      "uuid": "41124de3-5d97-4948-9117-f72e54ae1ff8"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\purple.mtl": {
+      "time": 1782238460892.1724,
+      "uuid": "a817c2d7-e7dc-4ece-bd96-293a7f0b67b1"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\red.mtl": {
+      "time": 1782238460899.2268,
+      "uuid": "d732711d-bad7-47db-96ac-2ac0c0f6ed46"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\yellow.mtl": {
+      "time": 1782238460905.4524,
+      "uuid": "efc35f93-66cf-4517-9cc6-90692715359e"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Effect\\hitTrigger\\glow.mtl": {
+      "time": 1782238460482.9138,
+      "uuid": "421543d0-7506-452e-a8cd-20fe67bfdf0c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Effect\\hitTrigger\\trigger.mtl": {
+      "time": 1782238460491.7815,
+      "uuid": "865ebb95-5f68-403d-ad1b-1c166af8d546"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Effect\\effectTrigger.prefab": {
+      "time": 1782238460510.5544,
+      "uuid": "c50c6f69-63c5-4a0d-99f6-d994d4da8e4d"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\Ring.mtl": {
+      "time": 1782238460570.8203,
+      "uuid": "f2c87adf-1f67-4dd0-bfae-5d17bcb25c12"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\Ring.png": {
+      "time": 1782238460577.5164,
+      "uuid": "60c3bdf5-3be9-454c-884e-65a52f66cbce"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\star01.anim": {
+      "time": 1782238460583.802,
+      "uuid": "50191431-60cd-49bc-aae4-4b4434bfefee"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\star01.FBX": {
+      "time": 1782238460591.3093,
+      "uuid": "ced8244a-9035-4f00-9b64-222518474adc"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\star01.mtl": {
+      "time": 1782238460600.7415,
+      "uuid": "2c57dd8b-c3b4-4336-b1c5-692bce335880"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\star01.prefab": {
+      "time": 1782238460607.6382,
+      "uuid": "00fa23e8-4250-4aab-9a16-e80a9fe5e6c3"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\arrow.mtl": {
+      "time": 1782238460529.6848,
+      "uuid": "daae3202-814e-40af-89ed-e3662c262962"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\Circle03.png": {
+      "time": 1782238460536.0522,
+      "uuid": "f8707675-6826-4cc6-b8fb-ea2c235956bb"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\glow.mtl": {
+      "time": 1782238460542.6392,
+      "uuid": "f36107b7-1eb4-4eaa-81b4-17d3690dfea7"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\Ring.mtl": {
+      "time": 1782238460548.4705,
+      "uuid": "9386bbe2-26ed-449c-9b88-3bcb4b935581"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\Ring3.png": {
+      "time": 1782238460555.1123,
+      "uuid": "1e3b2c3e-cf86-48eb-aad8-e5efefd34be7"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\start.png": {
+      "time": 1782238460560.702,
+      "uuid": "ecc581c2-bee2-488b-952b-8bf93b6afb7e"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\blue.mtl.meta": {
+      "time": 1782238460846.0938
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Aniamtion\\bottomtext.anim.meta": {
+      "time": 1782368349434.4421
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Aniamtion\\barrier open.anim.meta": {
+      "time": 1782238460458.794
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Aniamtion\\Pulse_UI.anim.meta": {
+      "time": 1782366795384.6985
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\green.mtl.meta": {
+      "time": 1782238460852.1284
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\purple.mtl.meta": {
+      "time": 1782238460858.9075
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\red.mtl.meta": {
+      "time": 1782238460864.853
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\yellow.mtl.meta": {
+      "time": 1782238460873.3105
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Font\\Ubuntu-Bold.ttf.meta": {
+      "time": 1782368349439.5144
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\asset.mtl.meta": {
+      "time": 1782238460918.253
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\fake-shadow.mtl.meta": {
+      "time": 1782238460932.096
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\BG.mtl.meta": {
+      "time": 1782238460924.6462
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\road.mtl.meta": {
+      "time": 1782238460938.1445
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\stickman.mtl.meta": {
+      "time": 1782238460945.5598
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\materials\\tire-mat.mtl.meta": {
+      "time": 1782238460951.49
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Sign.fbx.meta": {
+      "time": 1782238460981.6262
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Road.fbx.meta": {
+      "time": 1782238460975.834
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Barrier.fbx.meta": {
+      "time": 1782238460962.6082
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Ground.fbx.meta": {
+      "time": 1782238460968.9702
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\Car_10.prefab.meta": {
+      "time": 1782351873004.283
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\Car_4.prefab.meta": {
+      "time": 1782351872809.9607
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\Car_6.prefab.meta": {
+      "time": 1782351872886.4775
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Stickman.fbx.meta": {
+      "time": 1782238460989.4602
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\Stickman.prefab.meta": {
+      "time": 1782238461014.747
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Asset_Texture.png.meta": {
+      "time": 1782238461056.7097
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\FakeShadow.png.meta": {
+      "time": 1782366695118.4026
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Matcap.png.meta": {
+      "time": 1782366695125.2168
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Road_Mask.png.meta": {
+      "time": 1782238461079.006
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Vehicle.png.meta": {
+      "time": 1782238461093.8723
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\slot.png.meta": {
+      "time": 1782238461086.7532
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Vehicle_04.fbx.meta": {
+      "time": 1782238460994.5342
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\blue.mtl.meta": {
+      "time": 1782238460881.69
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scene\\Test.scene.meta": {
+      "time": 1782238460625.928
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\green.mtl.meta": {
+      "time": 1782238460888.8726
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\purple.mtl.meta": {
+      "time": 1782238460895.52
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Vehicle_06.fbx.meta": {
+      "time": 1782238461000.9958
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\red.mtl.meta": {
+      "time": 1782238460902.4045
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\Warning.png.meta": {
+      "time": 1782370075965.8108
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Material\\Stickman\\yellow.mtl.meta": {
+      "time": 1782238460909.188
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Effect\\hitTrigger\\glow.mtl.meta": {
+      "time": 1782238460488.6062
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\meshes\\Vehicle_10.fbx.meta": {
+      "time": 1782238461007.7864
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Effect\\hitTrigger\\trigger.mtl.meta": {
+      "time": 1782238460495.1912
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\Ring.mtl.meta": {
+      "time": 1782238460573.011
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Effect\\effectTrigger.prefab.meta": {
+      "time": 1782238460514.931
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\star01.mtl.meta": {
+      "time": 1782238460604.3457
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\star01.anim.meta": {
+      "time": 1782238460587.621
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\arrow.mtl.meta": {
+      "time": 1782238460533.3347
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\star01.prefab.meta": {
+      "time": 1782238460611.0674
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\Ring.png.meta": {
+      "time": 1782238460580.5747
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\glow.mtl.meta": {
+      "time": 1782238460544.955
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\Ring.mtl.meta": {
+      "time": 1782238460551.9746
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\Circle03.png.meta": {
+      "time": 1782238460539.6394
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\Ring3.png.meta": {
+      "time": 1782238460557.6284
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\resources": {
+      "time": 1782371412161.3086,
+      "uuid": "7b76ac44-9c82-464f-a030-abfb9eb2ca1f"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\resources\\effect": {
+      "time": 1782371412162.3086,
+      "uuid": "7df41fb2-f03f-4b9f-8341-05318b2616e5"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\resources\\effect\\star": {
+      "time": 1782371412162.3086,
+      "uuid": "68c782ea-8405-45f4-a1ea-d3a0dfbd5ed6"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\resources\\effect\\star\\star01.mtl": {
+      "time": 1782371412159.3086,
+      "uuid": "ebfdf382-1d81-4dff-bd37-ac307b8ae587"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\Efffect_Touch\\Touch\\Thread_aww\\start.png.meta": {
+      "time": 1782238460562.9614
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\resources.meta": {
+      "time": 1782371412166.8127
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\resources\\effect.meta": {
+      "time": 1782371412168.8142
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\resources\\effect\\star.meta": {
+      "time": 1782371412169.8142
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\resources\\effect\\star\\star01.mtl.meta": {
+      "time": 1782371412178.322
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Prefabs\\star\\star01.FBX.meta": {
+      "time": 1782371412181.8271
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI.meta": {
+      "time": 1782366795389.4429
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose.meta": {
+      "time": 1782366795390.452
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite.meta": {
+      "time": 1782366795391.4517
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite\\Lose.meta": {
+      "time": 1782366795393.4517
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI": {
+      "time": 1782371267907.075,
+      "uuid": "6e2fa564-175c-402b-88d8-8bfd0cb276d5"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose": {
+      "time": 1782371267909.5132,
+      "uuid": "813040c6-4f96-43ef-a120-9bcb65011fe4"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite": {
+      "time": 1782371267911.907,
+      "uuid": "12fcb7cc-fd87-4587-801f-b60058c2f07d"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite\\Lose": {
+      "time": 1782371267928.4963,
+      "uuid": "da816fa1-ecd5-4137-9065-77cf8a9f678c"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite\\Lose\\playNow.png.meta": {
+      "time": 1782366795399.966
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite\\Lose\\playNow.png": {
+      "time": 1782366795398.966,
+      "uuid": "58ee868b-6e29-42d2-8b7f-09e00a383017"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite\\Lose\\logo.png.meta": {
+      "time": 1782367076633.3726
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite\\Lose\\logo.png": {
+      "time": 1782367068543.291,
+      "uuid": "8b925ba4-3338-443e-a276-b72df96aa780"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite\\Lose\\f.png.meta": {
+      "time": 1782366795395.9563
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\textures\\UI\\Lose\\Sprite\\Lose\\f.png": {
+      "time": 1782366795394.452,
+      "uuid": "10bdb141-5805-4ce4-a929-0b2f73f8de5e"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\StickmanAnimationController.ts.meta": {
+      "time": 1782373183126.4553
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Movement\\PathBuilder.ts.meta": {
+      "time": 1782373183126.4553
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Movement\\PathFollower.ts.meta": {
+      "time": 1782373183127.7888
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Controller\\StickmanAnimationController.ts": {
+      "time": 1782238460695.135,
+      "uuid": "b1c16ea9-316f-48bb-a695-b9506a49af8d"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Movement\\PathBuilder.ts": {
+      "time": 1782374487666.5015,
+      "uuid": "f1a96c0d-45a5-419d-b798-fb609ecee128"
+    },
+    "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Game\\Scripts\\Movement\\PathFollower.ts": {
+      "time": 1782374548346.356,
+      "uuid": "7343469a-02a5-4b49-86d4-a0f573ccaf72"
     }
   },
   "missing": {
@@ -1667,9 +2591,9 @@
       "removeTime": 1781516735324
     },
     "e3a4cd1d-afd4-4d25-9d0e-f98a235f798e": {
-      "path": "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\PathBuilder.ts",
-      "time": 1781491150000,
-      "removeTime": 1781516735324
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PathBuilder.ts",
+      "time": 1782279282187.5588,
+      "removeTime": 1782373801732
     },
     "5be72f8c-f8b5-4eac-bb0b-e89eb1daa991": {
       "path": "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\PassengerSpawner.ts",
@@ -1677,14 +2601,14 @@
       "removeTime": 1781516735326
     },
     "f02b4394-8b66-4725-b6d9-ddb4cb004e3f": {
-      "path": "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\StickmanAnimationController.ts",
-      "time": 1781491150000,
-      "removeTime": 1781516735327
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\StickmanAnimationController.ts",
+      "time": 1782238460695.135,
+      "removeTime": 1782373801732
     },
     "618eb1b8-2fff-4e4f-92f5-e9de282841ca": {
-      "path": "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\PathFollower.ts",
-      "time": 1781491150000,
-      "removeTime": 1781516735327
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\PathFollower.ts",
+      "time": 1782351074905.5334,
+      "removeTime": 1782373801732
     },
     "9f31f56e-16d3-4d4a-ab67-6c23fdde4b66": {
       "path": "C:\\Users\\Admin\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\Controller\\CharactorController.ts",
@@ -1800,6 +2724,46 @@
       "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Game\\Scripts\\Utility\\ResizeCam.ts",
       "time": 1782345867030.3413,
       "removeTime": 1782371249281
+    },
+    "7f3c424f-f34b-4ebb-a197-a34a9691bed7": {
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Ikame_Test_BusAway\\Ikame_Test_BusAway\\assets\\Animation",
+      "time": 1782368365311.7112,
+      "removeTime": 1782373801733
+    },
+    "6e2fa564-175c-402b-88d8-8bfd0cb276d5": {
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\UI",
+      "time": 1782371267907.075,
+      "removeTime": 1782372085229
+    },
+    "813040c6-4f96-43ef-a120-9bcb65011fe4": {
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\UI\\Lose",
+      "time": 1782371267909.5132,
+      "removeTime": 1782372085229
+    },
+    "12fcb7cc-fd87-4587-801f-b60058c2f07d": {
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\UI\\Lose\\Sprite",
+      "time": 1782371267911.907,
+      "removeTime": 1782372085229
+    },
+    "da816fa1-ecd5-4137-9065-77cf8a9f678c": {
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\UI\\Lose\\Sprite\\Lose",
+      "time": 1782371267928.4963,
+      "removeTime": 1782372085229
+    },
+    "10bdb141-5805-4ce4-a929-0b2f73f8de5e": {
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\UI\\Lose\\Sprite\\Lose\\f.png",
+      "time": 1782366795394.452,
+      "removeTime": 1782372085230
+    },
+    "8b925ba4-3338-443e-a276-b72df96aa780": {
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\UI\\Lose\\Sprite\\Lose\\logo.png",
+      "time": 1782367068543.291,
+      "removeTime": 1782372085230
+    },
+    "58ee868b-6e29-42d2-8b7f-09e00a383017": {
+      "path": "C:\\Users\\Tung Chen\\Documents\\GitHub\\Test_PA\\assets\\Prefab\\UI\\Lose\\Sprite\\Lose\\playNow.png",
+      "time": 1782366795398.966,
+      "removeTime": 1782372085230
     }
   }
 }

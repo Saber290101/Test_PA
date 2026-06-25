@@ -46,8 +46,6 @@ export class BusStop extends Component {
         this._updateCountLabel();
     }
 
-    // ─── public API ──────────────────────────────
-
     public addPassenger(p: PassengerController): void {
         const idx = this.passengers.length;
         this.passengers.push(p);
@@ -59,8 +57,6 @@ export class BusStop extends Component {
     public peekFront(): PassengerController | null {
         return this.passengers[0] ?? null;
     }
-
-
 
     public hasPassengerColor(c: BusColor): boolean {
         return this.passengers.some(p => p.passengerColor === c);
@@ -84,8 +80,6 @@ export class BusStop extends Component {
     public count(): number {
         return this.passengers.length;
     }
-
-    // ─── internal ────────────────────────────────
 
     private _updateCountLabel(): void {
         if (this.countLabel) {
@@ -114,10 +108,6 @@ export class BusStop extends Component {
             this.queueDirection.z * index * this.spacing
         );
     }
-
-    // ─── Bus Jam helpers ─────────────────────────
-
-
 
     public getMatchingCount(color: BusColor): number {
         return this.passengers.filter(p => p.passengerColor === color).length;

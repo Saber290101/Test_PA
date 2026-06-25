@@ -16163,7 +16163,7 @@
     "fileId": "56/VE0iTJGZpET/IK7lRYW"
   },
   {
-    "__type__": "618ebG4L/9OT5L16d4oKEHK",
+    "__type__": "73434aaAqVLSYbUoPVzzK9y",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -16178,7 +16178,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "8fM0ZYeT5IC5EYlvqOyZj5"
+    "fileId": "ecf04R6h5GLKLSTYd/JNzC"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -16189,6 +16189,7 @@
       "__id__": 0
     },
     "fileId": "bbLzN9c1JG2aCUm2maFRR8",
+    "instance": null,
     "targetOverrides": null
   }
 ]

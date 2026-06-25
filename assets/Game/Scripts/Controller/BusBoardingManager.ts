@@ -1,12 +1,7 @@
 import { Node } from 'cc';
-import { BusController } from './BusController';
-import { BusStop } from '../BusStop';
+import type { BusController } from './BusController';
 import { ColorManager } from './ColorManager';
 
-/**
- * Phụ trách logic đón khách của xe buýt.
- * Bao gồm quản lý ghế ngồi, đếm số lượng khách, tương tác với trạm xe (BusStop).
- */
 export class BusBoardingManager {
     private _bus: BusController;
 
@@ -14,9 +9,6 @@ export class BusBoardingManager {
         this._bus = bus;
     }
 
-    /**
-     * Tự động tìm kiếm các ghế ngồi trong node con nếu Inspector chưa gắn.
-     */
     public autoDiscoverSeats(): void {
         if (this._bus.passengerSeats.length > 0) return;
 
@@ -36,9 +28,6 @@ export class BusBoardingManager {
         this._bus.passengerSeats.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' }));
     }
 
-    /**
-     * Ẩn tất cả khách khi bắt đầu game.
-     */
     public hideAllSeats(): void {
         for (const seat of this._bus.passengerSeats) {
             if (seat) seat.active = false;

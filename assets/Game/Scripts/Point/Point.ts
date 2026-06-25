@@ -1,6 +1,6 @@
 import { _decorator, BoxCollider, Component, easing, ITriggerEvent, Node, Quat, Tween, tween, Vec3 } from 'cc';
 import { Gamecontroller } from '../Controller/Gamecontroller';
-import { BusController } from '../Controller/BusController';
+import type { BusController } from '../Controller/BusController';
 const { ccclass, property } = _decorator;
 
 @ccclass('Point')
@@ -86,7 +86,7 @@ export class Point extends Component {
         tween(characterNode)
             .to(moveTime, { worldPosition: targetWorldPos })
             .call(() => {
-                if (characterNode.getComponent(BusController)) {
+                if (characterNode.getComponent('BusController')) {
                     Gamecontroller.instance.busCompleted();
                 }
                 Gamecontroller.instance.checkCharCanMove();
@@ -292,7 +292,7 @@ export class Point extends Component {
             tween(characterNode)
                 .to(moveTime, { worldPosition: targetWorldPos })
                 .call(() => {
-                    if (characterNode.getComponent(BusController)) {
+                    if (characterNode.getComponent('BusController')) {
                         Gamecontroller.instance.busCompleted();
                     }
                     Gamecontroller.instance.checkCharCanMove();
@@ -307,7 +307,7 @@ export class Point extends Component {
                 .to(0.1, { eulerAngles: new Vec3(0, finalAngle, 0) }, { easing: easing.quadInOut })
                 .to(moveTime, { worldPosition: targetWorldPos })
                 .call(() => {
-                    if (characterNode.getComponent(BusController)) {
+                    if (characterNode.getComponent('BusController')) {
                         Gamecontroller.instance.busCompleted();
                     }
                     Gamecontroller.instance.checkCharCanMove();
@@ -329,7 +329,7 @@ export class Point extends Component {
         tween(characterNode)
             .to(moveTime, { worldPosition: targetWorldPos })
             .call(() => {
-                if (characterNode.getComponent(BusController)) {
+                if (characterNode.getComponent('BusController')) {
                     Gamecontroller.instance.busCompleted();
                 }
                 Gamecontroller.instance.checkCharCanMove();

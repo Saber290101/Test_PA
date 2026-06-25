@@ -31,8 +31,6 @@ export class GameLoseManager extends Component {
         if (Global.endGame) return;
         Global.endGame = true;
         if (this.content.active) return;
-
-
         console.log("show lose");
 
         this.icon.active = false;

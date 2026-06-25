@@ -1,5 +1,4 @@
 import { _decorator, Animation, Component, Node, tween, Vec3 } from 'cc';
-import Global from '../Utility/Global';
 import EventManager from '../Utility/EventManager';
 import { GlobalEvent } from '../Utility/Event/GlobalEvent';
 const { ccclass, property } = _decorator;

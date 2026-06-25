@@ -1,5 +1,4 @@
 import { _decorator, Camera, Component, EventTouch, geometry, Input, input, Node, ParticleSystem, PhysicsSystem, tween, Tween, Vec2, Vec3 } from 'cc';
-import { BusController } from '../Controller/BusController';
 import { Gamecontroller } from '../Controller/Gamecontroller';
 const { ccclass, property } = _decorator;
 
@@ -49,7 +48,7 @@ export class HandleInputListener extends Component {
         if (PhysicsSystem.instance.raycastClosest(this._ray, mask)) {
             const result = PhysicsSystem.instance.raycastClosestResult;
             const nodeOther = result.collider.node;
-            const item = nodeOther.getComponent(BusController);
+            const item = nodeOther.getComponent('BusController') as any;
             if (item) {
                 Gamecontroller.instance.increaseMove();
                 item.onClick();

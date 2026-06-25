@@ -1,5 +1,4 @@
-import { _decorator, Component, Node, Animation, CCBoolean } from 'cc';
-import { BusController } from './BusController';
+import { _decorator, Component, Node, Animation, CCBoolean, input, Input } from 'cc';
 import { GlobalEvent } from '../Utility/Event/GlobalEvent';
 import EventManager from '../Utility/EventManager';
 const { ccclass, property } = _decorator;
@@ -36,7 +35,7 @@ export class Gamecontroller extends Component {
         this.listCharacter = [];
         this.map.children.forEach(generateDataNode => {
             generateDataNode.children.forEach(skModelNode => {
-                const busController = skModelNode.getComponent(BusController);
+                const busController = skModelNode.getComponent('BusController') as any;
                 if (busController) {
                     this.listCharacter.push(skModelNode);
                 }
@@ -55,7 +54,7 @@ export class Gamecontroller extends Component {
                     this.listCharacter.splice(i, 1);
                     continue;
                 }
-                const busController = characterNode.getComponent(BusController);
+                const busController = characterNode.getComponent('BusController') as any;
                 if (!busController) {
                     this.listCharacter.splice(i, 1);
                     continue;
@@ -108,8 +107,10 @@ export class Gamecontroller extends Component {
         console.log("Completed bus count: " + this.completedBusCount);
         if (this.completedBusCount === 3 && !this.hasOpenedStoreAtMove3) {
             this.hasOpenedStoreAtMove3 = true;
-            this.store.active = true;
-            GlobalEvent.instance().dispatchEvent(GlobalEvent.OPEN_STORE);
+            input.once(Input.EventType.TOUCH_START, () => {
+                this.store.active = true;
+                GlobalEvent.instance().dispatchEvent(GlobalEvent.OPEN_STORE);
+            });
         }
     }
 
