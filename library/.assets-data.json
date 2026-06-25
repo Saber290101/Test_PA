@@ -1,0 +1,1844 @@
+{
+  "02808bcc-55a2-4477-98b0-0ba9ddbb9b2d": {
+    "url": "db://assets/Aniamtion",
+    "value": {},
+    "versionCode": 1
+  },
+  "27827be9-1832-46fd-8158-1425d84b693f": {
+    "url": "db://assets/Game/Scripts/Controller/BusController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "02c36a55-a3b7-4caf-93e6-1b470ed4ab35": {
+    "url": "db://assets/Game/Scripts/BusStop.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d8fdbcc1-f084-4787-b14a-cb72bf4f2d7c": {
+    "url": "db://assets/Game/Scripts/Controller/ColorManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "46846a8b-ab2c-4ef0-951a-7577ac82404d": {
+    "url": "db://assets/Game",
+    "value": {},
+    "versionCode": 1
+  },
+  "9594ac36-605c-477c-bdd0-b1aae9af1e29": {
+    "url": "db://assets/Game/Scripts/GameEnums.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "fcb1f058-a19e-45cb-8bda-7b8bfe8d518f": {
+    "url": "db://assets/Material",
+    "value": {},
+    "versionCode": 1
+  },
+  "0ed10b65-4908-4ce6-8c29-2b3801f3d6ae": {
+    "url": "db://assets/materials",
+    "value": {},
+    "versionCode": 1
+  },
+  "19e196c9-e2de-4efc-832a-24537bfd6282": {
+    "url": "db://assets/meshes",
+    "value": {},
+    "versionCode": 1
+  },
+  "8a21770f-52ad-4544-b321-a3c713272d4c": {
+    "url": "db://assets/Game/Scripts/Controller/ParkingManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3b0817d7-32ba-4b3d-b133-5725518c8082": {
+    "url": "db://assets/Game/Scripts/Controller/PassengerController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5be72f8c-f8b5-4eac-bb0b-e89eb1daa991": {
+    "url": "db://assets/Game/Scripts/PassengerSpawner.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e3a4cd1d-afd4-4d25-9d0e-f98a235f798e": {
+    "url": "db://assets/Game/Scripts/PathBuilder.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "618eb1b8-2fff-4e4f-92f5-e9de282841ca": {
+    "url": "db://assets/Game/Scripts/PathFollower.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b35e4c4f-9d97-4b91-b5c1-36498a1cf9f2": {
+    "url": "db://assets/Prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "603316bb-a15f-45fb-bdc4-db2985549859": {
+    "url": "db://assets/shaders",
+    "value": {},
+    "versionCode": 1
+  },
+  "f02b4394-8b66-4725-b6d9-ddb4cb004e3f": {
+    "url": "db://assets/Game/Scripts/StickmanAnimationController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c105effe-c943-49f0-81f9-0678afdf131c": {
+    "url": "db://assets/textures",
+    "value": {},
+    "versionCode": 1
+  },
+  "e26bac05-66b4-4e8a-b805-dcbcf41db714": {
+    "url": "db://assets/Game/Effect",
+    "value": {},
+    "versionCode": 1
+  },
+  "f827f709-caab-4022-8fb4-b8a24719d07f": {
+    "url": "db://assets/Game/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "2cc26abd-a898-49ab-9f87-9609a53ee842": {
+    "url": "db://assets/Game/Scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "a010ec38-925e-4ca6-9804-3a675875eeb4": {
+    "url": "db://assets/Game/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "97064407-d9a3-4aef-aec2-1dc4205f1ebe": {
+    "url": "db://assets/Material/Stickman",
+    "value": {},
+    "versionCode": 1
+  },
+  "8d5ee353-c9ad-4613-9f1a-6a8c024410df": {
+    "url": "db://assets/shaders/asset.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9d81183b-21b8-4684-abe3-bba94a09e6d1": {
+    "url": "db://assets/shaders/FakeShadow.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "76ac6977-e892-4455-9c5d-e5097562a88c": {
+    "url": "db://assets/shaders/road.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e96ecfad-5bfb-400a-8743-0aca0acc1ce4": {
+    "url": "db://assets/shaders/stickman.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "43828036-a332-4ad1-ae12-67e57a07819b": {
+    "url": "db://assets/shaders/vehicle.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "26b16a3a-359c-4c48-8147-8e3e35afec11": {
+    "url": "db://assets/Game/Effect/hitTrigger",
+    "value": {},
+    "versionCode": 1
+  },
+  "c94eac04-6f1f-41bb-ab54-f39ed427c397": {
+    "url": "db://assets/Game/Prefabs/Effect",
+    "value": {},
+    "versionCode": 1
+  },
+  "77ecc29a-7a16-452e-b603-373e6560825c": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch",
+    "value": {},
+    "versionCode": 1
+  },
+  "b6a394e5-2740-4314-a7af-c81f5f402e3d": {
+    "url": "db://assets/Game/Prefabs/star",
+    "value": {},
+    "versionCode": 1
+  },
+  "437b56a9-c38a-4d51-af38-f8f77d20d6cb": {
+    "url": "db://assets/Game/Scripts/Controller",
+    "value": {},
+    "versionCode": 1
+  },
+  "b1264d33-ee9e-4dd2-97bb-6ecf4adc8197": {
+    "url": "db://assets/Game/Scripts/HandleInput",
+    "value": {},
+    "versionCode": 1
+  },
+  "c270883d-593b-4f14-ac6c-a33c4310a5d6": {
+    "url": "db://assets/Game/Scripts/Movement",
+    "value": {},
+    "versionCode": 1
+  },
+  "4fce5c5f-8583-4198-80aa-9b438c5358ff": {
+    "url": "db://assets/Game/Scripts/Point",
+    "value": {},
+    "versionCode": 1
+  },
+  "cac2cd7a-0d8d-494e-8915-dadb69fe2935": {
+    "url": "db://assets/Game/Scripts/Utility",
+    "value": {},
+    "versionCode": 1
+  },
+  "50b2911d-a3f1-4250-81a7-3afed01b2797": {
+    "url": "db://assets/Game/Scripts/WayPoint",
+    "value": {},
+    "versionCode": 1
+  },
+  "a1c78b01-9ab2-412d-a6c7-c4c58a59ea38": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch",
+    "value": {},
+    "versionCode": 1
+  },
+  "9f31f56e-16d3-4d4a-ab67-6c23fdde4b66": {
+    "url": "db://assets/Game/Scripts/Controller/CharactorController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a7ba0b1f-323f-426f-88d7-51908c58f952": {
+    "url": "db://assets/Game/Scripts/Controller/Gamecontroller.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c5acdf8d-ccb1-477d-92f9-2d13b2612021": {
+    "url": "db://assets/Game/Scripts/Controller/GameLoseController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ac16d4a4-04e5-46ad-a81d-cd603e18cc48": {
+    "url": "db://assets/Game/Scripts/Controller/GameWinController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "086ea6ab-b974-4fca-8fca-aa9c250dec75": {
+    "url": "db://assets/Game/Scripts/HandleInput/HandleInputListener.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "39d8e39c-9ffd-4822-97b5-8eab374c318e": {
+    "url": "db://assets/Game/Scripts/Movement/IMovementStrategy.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "aa051bb5-0ed6-4a07-bc1d-03e2e2593237": {
+    "url": "db://assets/Game/Scripts/Movement/LinearMovement.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f2ac3ceb-a1fb-47db-84fb-6f660d94f779": {
+    "url": "db://assets/Game/Scripts/Point/GateCheck.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "963154be-54c0-433d-b42e-7a97adefba83": {
+    "url": "db://assets/Game/Scripts/Point/Point.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7a43a120-4a81-46d4-b0a4-f68f3774e370": {
+    "url": "db://assets/Game/Scripts/Utility/EventManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7cacee08-b769-4b89-af71-4a08c54f44ce": {
+    "url": "db://assets/Game/Scripts/WayPoint/WayPoint.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2e73f7a2-ed8a-4247-a138-4317f5a8899d": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww",
+    "value": {},
+    "versionCode": 1
+  },
+  "027e57d0-a1c8-4833-a6ba-143c1fe2bf4c": {
+    "url": "db://assets/Aniamtion/barrier open.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c0b0a422-2f7f-4cb8-b5f5-e35c420324f8": {
+    "url": "db://assets/Material/blue.mtl",
+    "value": {
+      "depends": [
+        "43828036-a332-4ad1-ae12-67e57a07819b",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2e1136b1-089e-4e10-90b1-4b7f37beb082": {
+    "url": "db://assets/Material/green.mtl",
+    "value": {
+      "depends": [
+        "43828036-a332-4ad1-ae12-67e57a07819b",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "31a4d5bc-b24e-4469-9e1c-6b368ad4a3ba": {
+    "url": "db://assets/Material/purple.mtl",
+    "value": {
+      "depends": [
+        "43828036-a332-4ad1-ae12-67e57a07819b",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8f924403-3df2-42fe-9d7a-b3ccf57f186a": {
+    "url": "db://assets/Material/red.mtl",
+    "value": {
+      "depends": [
+        "43828036-a332-4ad1-ae12-67e57a07819b",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "51d60bb2-e94d-4821-ad35-f7e91deafb8f": {
+    "url": "db://assets/Material/yellow.mtl",
+    "value": {
+      "depends": [
+        "43828036-a332-4ad1-ae12-67e57a07819b",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "78d1a325-84ea-41f2-9beb-d34866ed0bc7": {
+    "url": "db://assets/materials/asset.mtl",
+    "value": {
+      "depends": [
+        "8d5ee353-c9ad-4613-9f1a-6a8c024410df",
+        "27d6727e-1490-41dc-9c23-fb0f098dad6c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aadfcd84-23bf-4432-a257-fb3f5de96b26": {
+    "url": "db://assets/materials/BG.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "4254b8f6-26bf-4d91-9c69-841df02700e0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "07cd295f-e98b-463c-a905-941a32b8593e": {
+    "url": "db://assets/materials/fake-shadow.mtl",
+    "value": {
+      "depends": [
+        "9d81183b-21b8-4684-abe3-bba94a09e6d1",
+        "2f016bfa-103d-4510-9b33-9c4cf192f784@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "604ec95d-3426-4909-898d-88642185027c": {
+    "url": "db://assets/materials/road.mtl",
+    "value": {
+      "depends": [
+        "76ac6977-e892-4455-9c5d-e5097562a88c",
+        "4254b8f6-26bf-4d91-9c69-841df02700e0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "84342d7f-b856-4b5d-b365-3f503d0db3af": {
+    "url": "db://assets/materials/stickman.mtl",
+    "value": {
+      "depends": [
+        "e96ecfad-5bfb-400a-8743-0aca0acc1ce4",
+        "75bb4f04-4be2-48fa-b52f-68c3ffa1d0dc@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0778184e-0d7c-423c-843b-b96200ceafeb": {
+    "url": "db://assets/materials/tire-mat.mtl",
+    "value": {
+      "depends": [
+        "43828036-a332-4ad1-ae12-67e57a07819b",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d557967-8bb2-4ccb-842b-7306d0100439": {
+    "url": "db://assets/meshes/Barrier.fbx",
+    "value": {},
+    "versionCode": 1
+  },
+  "830e8baa-6bc5-4916-9c85-f82189661528": {
+    "url": "db://assets/meshes/Ground.fbx",
+    "value": {},
+    "versionCode": 1
+  },
+  "f0865f55-c017-4de3-9faf-756216690981": {
+    "url": "db://assets/meshes/Road.fbx",
+    "value": {},
+    "versionCode": 1
+  },
+  "a2bc38fd-c0ef-4da2-a699-17ba66c27d59": {
+    "url": "db://assets/meshes/Sign.fbx",
+    "value": {},
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e": {
+    "url": "db://assets/meshes/Stickman.fbx",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@a62fe": {
+    "url": "db://assets/meshes/Sign.fbx@a62fe",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@4f17a": {
+    "url": "db://assets/meshes/Sign.fbx@4f17a",
+    "value": {
+      "depends": [
+        "2f016bfa-103d-4510-9b33-9c4cf192f784"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@ae20d": {
+    "url": "db://assets/meshes/Sign.fbx@ae20d",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d557967-8bb2-4ccb-842b-7306d0100439@64976": {
+    "url": "db://assets/meshes/Barrier.fbx@64976",
+    "value": {
+      "depends": [
+        "4d557967-8bb2-4ccb-842b-7306d0100439@ae20d",
+        "4d557967-8bb2-4ccb-842b-7306d0100439@1a9ee",
+        "4d557967-8bb2-4ccb-842b-7306d0100439@99d6c",
+        "4d557967-8bb2-4ccb-842b-7306d0100439@6ec10"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@1a9ee": {
+    "url": "db://assets/meshes/Sign.fbx@1a9ee",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@4f17a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@035e0": {
+    "url": "db://assets/meshes/Sign.fbx@035e0",
+    "value": {
+      "depends": [
+        "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@ae20d",
+        "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@1a9ee",
+        "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@a62fe"
+      ]
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db": {
+    "url": "db://assets/meshes/Vehicle_04.fbx",
+    "value": {},
+    "versionCode": 1
+  },
+  "4d557967-8bb2-4ccb-842b-7306d0100439@99d6c": {
+    "url": "db://assets/meshes/Barrier.fbx@99d6c",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4d557967-8bb2-4ccb-842b-7306d0100439@6ec10": {
+    "url": "db://assets/meshes/Barrier.fbx@6ec10",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f0865f55-c017-4de3-9faf-756216690981@70111": {
+    "url": "db://assets/meshes/Road.fbx@70111",
+    "value": {
+      "depends": [
+        "f0865f55-c017-4de3-9faf-756216690981@4e054",
+        "f0865f55-c017-4de3-9faf-756216690981@a62fe"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d557967-8bb2-4ccb-842b-7306d0100439@4f17a": {
+    "url": "db://assets/meshes/Barrier.fbx@4f17a",
+    "value": {
+      "depends": [
+        "2f016bfa-103d-4510-9b33-9c4cf192f784"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d557967-8bb2-4ccb-842b-7306d0100439@ae20d": {
+    "url": "db://assets/meshes/Barrier.fbx@ae20d",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f0865f55-c017-4de3-9faf-756216690981@a62fe": {
+    "url": "db://assets/meshes/Road.fbx@a62fe",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4d557967-8bb2-4ccb-842b-7306d0100439@1a9ee": {
+    "url": "db://assets/meshes/Barrier.fbx@1a9ee",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "4d557967-8bb2-4ccb-842b-7306d0100439@4f17a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c": {
+    "url": "db://assets/meshes/Vehicle_06.fbx",
+    "value": {},
+    "versionCode": 1
+  },
+  "f0865f55-c017-4de3-9faf-756216690981@4f17a": {
+    "url": "db://assets/meshes/Road.fbx@4f17a",
+    "value": {
+      "depends": [
+        "4254b8f6-26bf-4d91-9c69-841df02700e0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "830e8baa-6bc5-4916-9c85-f82189661528@a62fe": {
+    "url": "db://assets/meshes/Ground.fbx@a62fe",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f0865f55-c017-4de3-9faf-756216690981@4e054": {
+    "url": "db://assets/meshes/Road.fbx@4e054",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "f0865f55-c017-4de3-9faf-756216690981@4f17a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3": {
+    "url": "db://assets/meshes/Vehicle_10.fbx",
+    "value": {},
+    "versionCode": 1
+  },
+  "830e8baa-6bc5-4916-9c85-f82189661528@4f17a": {
+    "url": "db://assets/meshes/Ground.fbx@4f17a",
+    "value": {
+      "depends": [
+        "4254b8f6-26bf-4d91-9c69-841df02700e0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "830e8baa-6bc5-4916-9c85-f82189661528@05a41": {
+    "url": "db://assets/meshes/Ground.fbx@05a41",
+    "value": {
+      "depends": [
+        "2f016bfa-103d-4510-9b33-9c4cf192f784"
+      ]
+    },
+    "versionCode": 1
+  },
+  "830e8baa-6bc5-4916-9c85-f82189661528@4e054": {
+    "url": "db://assets/meshes/Ground.fbx@4e054",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "830e8baa-6bc5-4916-9c85-f82189661528@4f17a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@57146": {
+    "url": "db://assets/meshes/Stickman.fbx@57146",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "830e8baa-6bc5-4916-9c85-f82189661528@1a9ee": {
+    "url": "db://assets/meshes/Ground.fbx@1a9ee",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "830e8baa-6bc5-4916-9c85-f82189661528@05a41"
+      ]
+    },
+    "versionCode": 1
+  },
+  "830e8baa-6bc5-4916-9c85-f82189661528@7621e": {
+    "url": "db://assets/meshes/Ground.fbx@7621e",
+    "value": {
+      "depends": [
+        "830e8baa-6bc5-4916-9c85-f82189661528@4e054",
+        "830e8baa-6bc5-4916-9c85-f82189661528@1a9ee",
+        "830e8baa-6bc5-4916-9c85-f82189661528@a62fe"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d0f45b6d-bcf4-40de-8531-9883f9d81d2f": {
+    "url": "db://assets/Prefab/Stickman.prefab",
+    "value": {
+      "depends": [
+        "84342d7f-b856-4b5d-b365-3f503d0db3af",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@99d6c",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@438fe",
+        "07cd295f-e98b-463c-a905-941a32b8593e",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@6ec10",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@57146",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@c2696",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@2875d"
+      ],
+      "dependScripts": [
+        "f02b4394-8b66-4725-b6d9-ddb4cb004e3f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@99d6c": {
+    "url": "db://assets/meshes/Stickman.fbx@99d6c",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@6ec10": {
+    "url": "db://assets/meshes/Stickman.fbx@6ec10",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@99d6c": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@99d6c",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "27d6727e-1490-41dc-9c23-fb0f098dad6c": {
+    "url": "db://assets/textures/Asset_Texture.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@c2696": {
+    "url": "db://assets/meshes/Stickman.fbx@c2696",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@6ec10": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@6ec10",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@2875d": {
+    "url": "db://assets/meshes/Stickman.fbx@2875d",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@3620d": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@3620d",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@438fe": {
+    "url": "db://assets/meshes/Stickman.fbx@438fe",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@4f17a": {
+    "url": "db://assets/meshes/Stickman.fbx@4f17a",
+    "value": {
+      "depends": [
+        "2f016bfa-103d-4510-9b33-9c4cf192f784"
+      ]
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@cbffa": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@cbffa",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "27d6727e-1490-41dc-9c23-fb0f098dad6c@6c48a": {
+    "url": "db://assets/textures/Asset_Texture.png@6c48a",
+    "value": {
+      "depends": [
+        "27d6727e-1490-41dc-9c23-fb0f098dad6c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2f016bfa-103d-4510-9b33-9c4cf192f784": {
+    "url": "db://assets/textures/FakeShadow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@21e76": {
+    "url": "db://assets/meshes/Stickman.fbx@21e76",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@1a9ee": {
+    "url": "db://assets/meshes/Stickman.fbx@1a9ee",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@4f17a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@3c0d1": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@3c0d1",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5cf87a35-21a1-4197-80f0-aaf64e44632e@3f1dc": {
+    "url": "db://assets/meshes/Stickman.fbx@3f1dc",
+    "value": {
+      "depends": [
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@21e76",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@99d6c",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@438fe",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@1a9ee",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@6ec10",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@57146",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@c2696",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@2875d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "75bb4f04-4be2-48fa-b52f-68c3ffa1d0dc": {
+    "url": "db://assets/textures/Matcap.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@4f17a": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@4f17a",
+    "value": {
+      "depends": [
+        "2f016bfa-103d-4510-9b33-9c4cf192f784"
+      ]
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@b7e91": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@b7e91",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@1a9ee": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@1a9ee",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@4f17a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@99d6c": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@99d6c",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "47b3ae55-94e9-40c3-8bb8-b284530656db@1d526": {
+    "url": "db://assets/meshes/Vehicle_04.fbx@1d526",
+    "value": {
+      "depends": [
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@b7e91",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@99d6c",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@6ec10",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@3620d",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@cbffa",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@1a9ee",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@3c0d1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4254b8f6-26bf-4d91-9c69-841df02700e0": {
+    "url": "db://assets/textures/Road_Mask.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2f016bfa-103d-4510-9b33-9c4cf192f784@6c48a": {
+    "url": "db://assets/textures/FakeShadow.png@6c48a",
+    "value": {
+      "depends": [
+        "2f016bfa-103d-4510-9b33-9c4cf192f784"
+      ]
+    },
+    "versionCode": 1
+  },
+  "73cb8b3c-4a05-4297-9f46-009cbad4e9bb": {
+    "url": "db://assets/textures/slot.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@6ec10": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@6ec10",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "75bb4f04-4be2-48fa-b52f-68c3ffa1d0dc@6c48a": {
+    "url": "db://assets/textures/Matcap.png@6c48a",
+    "value": {
+      "depends": [
+        "75bb4f04-4be2-48fa-b52f-68c3ffa1d0dc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c9b89418-a118-442a-860f-f110c717ba4b": {
+    "url": "db://assets/textures/Vehicle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@3620d": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@3620d",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@cbffa": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@cbffa",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4254b8f6-26bf-4d91-9c69-841df02700e0@6c48a": {
+    "url": "db://assets/textures/Road_Mask.png@6c48a",
+    "value": {
+      "depends": [
+        "4254b8f6-26bf-4d91-9c69-841df02700e0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a8d650d1-27ad-4e86-bc5c-34351a0991b3": {
+    "url": "db://assets/Game/Scene/Test.scene",
+    "value": {
+      "depends": [
+        "a8d650d1-27ad-4e86-bc5c-34351a0991b3",
+        "c50c6f69-63c5-4a0d-99f6-d994d4da8e4d",
+        "604ec95d-3426-4909-898d-88642185027c",
+        "07cd295f-e98b-463c-a905-941a32b8593e",
+        "830e8baa-6bc5-4916-9c85-f82189661528@a62fe",
+        "f0865f55-c017-4de3-9faf-756216690981@a62fe",
+        "78d1a325-84ea-41f2-9beb-d34866ed0bc7",
+        "4d557967-8bb2-4ccb-842b-7306d0100439@99d6c",
+        "4d557967-8bb2-4ccb-842b-7306d0100439@6ec10",
+        "027e57d0-a1c8-4833-a6ba-143c1fe2bf4c",
+        "aadfcd84-23bf-4432-a257-fb3f5de96b26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+        "4b14c25a-8155-48b2-88c7-abf85adf6e56",
+        "ade8a15a-dcca-4b3c-84c6-f6476ac875bb",
+        "73cb8b3c-4a05-4297-9f46-009cbad4e9bb@f9941",
+        "3546e55b-9532-4803-92ab-730a165e1069",
+        "c4eb5a42-68d3-47be-8d4b-783330414e99",
+        "84342d7f-b856-4b5d-b365-3f503d0db3af",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@99d6c",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@438fe",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@6ec10",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@57146",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@c2696",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@2875d",
+        "8f924403-3df2-42fe-9d7a-b3ccf57f186a",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@99d6c",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@6ec10",
+        "0778184e-0d7c-423c-843b-b96200ceafeb",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@3620d",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@cbffa",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@3c0d1",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@99d6c",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@6ec10",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@3620d",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@cbffa",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@3c0d1",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@99d6c",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@6ec10",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@3620d",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@cbffa",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@3c0d1",
+        "a2bc38fd-c0ef-4da2-a699-17ba66c27d59@a62fe",
+        "d0ec5c3f-cd9f-42a5-bac9-62ca2fd97d15",
+        "a2b2fad0-6df7-4e42-80af-08e70b67a00f",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "10bdb141-5805-4ce4-a929-0b2f73f8de5e@f9941",
+        "58ee868b-6e29-42d2-8b7f-09e00a383017@f9941",
+        "aed2aad4-fa67-4436-bb3c-f1182bf547c9",
+        "8b925ba4-3338-443e-a276-b72df96aa780@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "9386bbe2-26ed-449c-9b88-3bcb4b935581",
+        "1e3b2c3e-cf86-48eb-aad8-e5efefd34be7@6c48a",
+        "f36107b7-1eb4-4eaa-81b4-17d3690dfea7",
+        "f8707675-6826-4cc6-b8fb-ea2c235956bb@6c48a",
+        "daae3202-814e-40af-89ed-e3662c262962",
+        "ecc581c2-bee2-488b-952b-8bf93b6afb7e@6c48a",
+        "c0b0a422-2f7f-4cb8-b5f5-e35c420324f8",
+        "2e1136b1-089e-4e10-90b1-4b7f37beb082",
+        "31a4d5bc-b24e-4469-9e1c-6b368ad4a3ba",
+        "51d60bb2-e94d-4821-ad35-f7e91deafb8f",
+        "82f6fa12-7df8-473a-a6aa-1765778f6114",
+        "41124de3-5d97-4948-9117-f72e54ae1ff8",
+        "a817c2d7-e7dc-4ece-bd96-293a7f0b67b1",
+        "d732711d-bad7-47db-96ac-2ac0c0f6ed46",
+        "efc35f93-66cf-4517-9cc6-90692715359e",
+        "d0f45b6d-bcf4-40de-8531-9883f9d81d2f"
+      ],
+      "dependScripts": [
+        "a7ba0b1f-323f-426f-88d7-51908c58f952",
+        "f2ac3ceb-a1fb-47db-84fb-6f660d94f779",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "8a21770f-52ad-4544-b321-a3c713272d4c",
+        "27827be9-1832-46fd-8158-1425d84b693f",
+        "618eb1b8-2fff-4e4f-92f5-e9de282841ca",
+        "02c36a55-a3b7-4caf-93e6-1b470ed4ab35",
+        "c5acdf8d-ccb1-477d-92f9-2d13b2612021",
+        "ac16d4a4-04e5-46ad-a81d-cd603e18cc48",
+        "0c0a667d-fc13-45f5-91c1-ad4da1384fc5",
+        "086ea6ab-b974-4fca-8fca-aa9c250dec75",
+        "d8fdbcc1-f084-4787-b14a-cb72bf4f2d7c",
+        "5be72f8c-f8b5-4eac-bb0b-e89eb1daa991"
+      ]
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@99d6c": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@99d6c",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "73cb8b3c-4a05-4297-9f46-009cbad4e9bb@6c48a": {
+    "url": "db://assets/textures/slot.png@6c48a",
+    "value": {
+      "depends": [
+        "73cb8b3c-4a05-4297-9f46-009cbad4e9bb"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@3c0d1": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@3c0d1",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@4f17a": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@4f17a",
+    "value": {
+      "depends": [
+        "2f016bfa-103d-4510-9b33-9c4cf192f784"
+      ]
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@6ec10": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@6ec10",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c9b89418-a118-442a-860f-f110c717ba4b@6c48a": {
+    "url": "db://assets/textures/Vehicle.png@6c48a",
+    "value": {
+      "depends": [
+        "c9b89418-a118-442a-860f-f110c717ba4b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "82f6fa12-7df8-473a-a6aa-1765778f6114": {
+    "url": "db://assets/Material/Stickman/blue.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "73cb8b3c-4a05-4297-9f46-009cbad4e9bb@f9941": {
+    "url": "db://assets/textures/slot.png@f9941",
+    "value": {
+      "depends": [
+        "73cb8b3c-4a05-4297-9f46-009cbad4e9bb@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "41124de3-5d97-4948-9117-f72e54ae1ff8": {
+    "url": "db://assets/Material/Stickman/green.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@b7e91": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@b7e91",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a817c2d7-e7dc-4ece-bd96-293a7f0b67b1": {
+    "url": "db://assets/Material/Stickman/purple.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@1a9ee": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@1a9ee",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@4f17a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@3620d": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@3620d",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d732711d-bad7-47db-96ac-2ac0c0f6ed46": {
+    "url": "db://assets/Material/Stickman/red.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4588f6c7-a251-4a70-b9d1-788b467c750c@d1524": {
+    "url": "db://assets/meshes/Vehicle_06.fbx@d1524",
+    "value": {
+      "depends": [
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@b7e91",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@99d6c",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@6ec10",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@3620d",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@cbffa",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@1a9ee",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@3c0d1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "efc35f93-66cf-4517-9cc6-90692715359e": {
+    "url": "db://assets/Material/Stickman/yellow.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "c9b89418-a118-442a-860f-f110c717ba4b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "421543d0-7506-452e-a8cd-20fe67bfdf0c": {
+    "url": "db://assets/Game/Effect/hitTrigger/glow.mtl",
+    "value": {
+      "depends": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0",
+        "b5b27ab1-e740-4398-b407-848fc2b2c897@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "865ebb95-5f68-403d-ad1b-1c166af8d546": {
+    "url": "db://assets/Game/Effect/hitTrigger/trigger.mtl",
+    "value": {
+      "depends": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0",
+        "b5b27ab1-e740-4398-b407-848fc2b2c897@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c50c6f69-63c5-4a0d-99f6-d994d4da8e4d": {
+    "url": "db://assets/Game/Prefabs/Effect/effectTrigger.prefab",
+    "value": {
+      "depends": [
+        "421543d0-7506-452e-a8cd-20fe67bfdf0c",
+        "b5b27ab1-e740-4398-b407-848fc2b2c897@6c48a",
+        "865ebb95-5f68-403d-ad1b-1c166af8d546"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@cbffa": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@cbffa",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f2c87adf-1f67-4dd0-bfae-5d17bcb25c12": {
+    "url": "db://assets/Game/Prefabs/star/Ring.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "60c3bdf5-3be9-454c-884e-65a52f66cbce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "60c3bdf5-3be9-454c-884e-65a52f66cbce": {
+    "url": "db://assets/Game/Prefabs/star/Ring.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "50191431-60cd-49bc-aae4-4b4434bfefee": {
+    "url": "db://assets/Game/Prefabs/star/star01.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ced8244a-9035-4f00-9b64-222518474adc": {
+    "url": "db://assets/Game/Prefabs/star/star01.FBX",
+    "value": {},
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@3c0d1": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@3c0d1",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2c57dd8b-c3b4-4336-b1c5-692bce335880": {
+    "url": "db://assets/Game/Prefabs/star/star01.mtl",
+    "value": {
+      "depends": [
+        "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+      ]
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@4f17a": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@4f17a",
+    "value": {
+      "depends": [
+        "2f016bfa-103d-4510-9b33-9c4cf192f784"
+      ]
+    },
+    "versionCode": 1
+  },
+  "00fa23e8-4250-4aab-9a16-e80a9fe5e6c3": {
+    "url": "db://assets/Game/Prefabs/star/star01.prefab",
+    "value": {
+      "depends": [
+        "2c57dd8b-c3b4-4336-b1c5-692bce335880",
+        "ced8244a-9035-4f00-9b64-222518474adc@c6026",
+        "f2c87adf-1f67-4dd0-bfae-5d17bcb25c12",
+        "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
+        "50191431-60cd-49bc-aae4-4b4434bfefee"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@b7e91": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@b7e91",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "daae3202-814e-40af-89ed-e3662c262962": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/arrow.mtl",
+    "value": {
+      "depends": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0",
+        "ecc581c2-bee2-488b-952b-8bf93b6afb7e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@1a9ee": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@1a9ee",
+    "value": {
+      "depends": [
+        "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@4f17a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f8707675-6826-4cc6-b8fb-ea2c235956bb": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/Circle03.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "60c3bdf5-3be9-454c-884e-65a52f66cbce@6c48a": {
+    "url": "db://assets/Game/Prefabs/star/Ring.png@6c48a",
+    "value": {
+      "depends": [
+        "60c3bdf5-3be9-454c-884e-65a52f66cbce"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f36107b7-1eb4-4eaa-81b4-17d3690dfea7": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/glow.mtl",
+    "value": {
+      "depends": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0",
+        "f8707675-6826-4cc6-b8fb-ea2c235956bb@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@c4280": {
+    "url": "db://assets/meshes/Vehicle_10.fbx@c4280",
+    "value": {
+      "depends": [
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@b7e91",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@99d6c",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@6ec10",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@3620d",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@cbffa",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@1a9ee",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@3c0d1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9386bbe2-26ed-449c-9b88-3bcb4b935581": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/Ring.mtl",
+    "value": {
+      "depends": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0",
+        "1e3b2c3e-cf86-48eb-aad8-e5efefd34be7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1e3b2c3e-cf86-48eb-aad8-e5efefd34be7": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/Ring3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ecc581c2-bee2-488b-952b-8bf93b6afb7e": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/start.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f8707675-6826-4cc6-b8fb-ea2c235956bb@6c48a": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/Circle03.png@6c48a",
+    "value": {
+      "depends": [
+        "f8707675-6826-4cc6-b8fb-ea2c235956bb"
+      ]
+    },
+    "versionCode": 1
+  },
+  "28bdc3c9-4e95-4b66-a17d-aecd9a6fce0a": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "35eee786-edaa-4862-a9cb-d83935c0ed95": {
+    "url": "db://assets/resources/effect",
+    "value": {},
+    "versionCode": 1
+  },
+  "fb94c67a-2d78-43a7-bf29-a7629ae478a5": {
+    "url": "db://assets/resources/effect/star",
+    "value": {},
+    "versionCode": 1
+  },
+  "c4362f50-20c5-4167-b7fc-01a1f1e2216a": {
+    "url": "db://assets/resources/effect/star/star01.mtl",
+    "value": {},
+    "versionCode": 1
+  },
+  "1e3b2c3e-cf86-48eb-aad8-e5efefd34be7@6c48a": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/Ring3.png@6c48a",
+    "value": {
+      "depends": [
+        "1e3b2c3e-cf86-48eb-aad8-e5efefd34be7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ced8244a-9035-4f00-9b64-222518474adc@c6026": {
+    "url": "db://assets/Game/Prefabs/star/star01.FBX@c6026",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ecc581c2-bee2-488b-952b-8bf93b6afb7e@6c48a": {
+    "url": "db://assets/Game/Prefabs/Efffect_Touch/Touch/Thread_aww/start.png@6c48a",
+    "value": {
+      "depends": [
+        "ecc581c2-bee2-488b-952b-8bf93b6afb7e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ced8244a-9035-4f00-9b64-222518474adc@006b8": {
+    "url": "db://assets/Game/Prefabs/star/star01.FBX@006b8",
+    "value": {
+      "depends": [
+        "6caa2b62-5523-46ed-932c-03b8619c2931",
+        "ced8244a-9035-4f00-9b64-222518474adc@c6026"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c612ed55-e6a8-47b1-8a2a-4b72fb25c4dd": {
+    "url": "db://assets/Game/Scripts/Utility/Event",
+    "value": {},
+    "versionCode": 1
+  },
+  "0eb13937-fc61-43f6-92e7-d77a420e9fb4": {
+    "url": "db://assets/Game/Scripts/Utility/Global.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ffc84bd9-b69e-46d3-9d01-7fdcd59c3d39": {
+    "url": "db://assets/Game/Scripts/Utility/Event/BaseEvent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dfe49ee2-e43f-4925-b9c2-b34bc49445b9": {
+    "url": "db://assets/Game/Scripts/Utility/Event/GlobalEvent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c71b6548-1b24-456e-b654-2a3aff22ae96": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "0082e34e-3059-45ac-a639-248da8d2d31e": {
+    "url": "db://assets/resources/effect",
+    "value": {},
+    "versionCode": 1
+  },
+  "ffc10272-8fa9-476b-954e-da84b6743284": {
+    "url": "db://assets/resources/effect/star",
+    "value": {},
+    "versionCode": 1
+  },
+  "6caa2b62-5523-46ed-932c-03b8619c2931": {
+    "url": "db://assets/resources/effect/star/star01.mtl",
+    "value": {},
+    "versionCode": 1
+  },
+  "2ce1cc8d-7be4-42d0-8c80-d7a385897e58": {
+    "url": "db://assets/Game/Scripts/Movement/RaycastUtils.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8b60356c-1920-4848-abb8-c8d1f8abecbe": {
+    "url": "db://assets/Game/Scripts/Controller/BusBoardingManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a1e98db9-c599-4246-839f-3d9ee9dd72a0": {
+    "url": "db://assets/Game/Scripts/Controller/BusInitialMovement.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "abc9da1a-27b9-449a-8e82-e7727f548920": {
+    "url": "db://assets/Game/Scripts/Controller/BusRouteManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "61bdf4ce-ab37-4f7a-a95a-eaf95f87c6f6": {
+    "url": "db://assets/Game/Scripts/Controller/ViewportChecker.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "420fd42c-051c-41d4-aac6-3a1a6622d8f7": {
+    "url": "db://assets/Prefab/Car_4.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "b8e260cf-7c39-46c1-a459-45d0251f6ef5": {
+    "url": "db://assets/Prefab/Car_6.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "cd2d0c3b-1a43-4c43-9f47-dc9ab4e71f2c": {
+    "url": "db://assets/Prefab/Car_10.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "f0fe0f85-348d-4469-b69f-0eac729fdf3b": {
+    "url": "db://assets/Game/Scripts/Controller/BusAnimationManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "80af56f7-496d-452f-acea-5720a97c56a9": {
+    "url": "db://assets/Game/Scripts/Utility/Playable",
+    "value": {},
+    "versionCode": 1
+  },
+  "99f56443-fb44-454a-9b44-ff99b16b55d7": {
+    "url": "db://assets/Game/Scripts/Utility/Pool",
+    "value": {},
+    "versionCode": 1
+  },
+  "3d7bf4d3-41e6-4017-8ca7-04f6cde6da86": {
+    "url": "db://assets/Game/Scripts/Utility/Constant.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "915dff83-9cd0-463e-a0c2-690c30a46582": {
+    "url": "db://assets/Game/Scripts/Utility/GlobalVariable.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d22f9c6b-c305-402b-94d7-51c1ca93724f": {
+    "url": "db://assets/Game/Scripts/Utility/ResizeCam.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "47a0055e-a868-40d2-8376-f32aac6c29d5": {
+    "url": "db://assets/Game/Scripts/Utility/Singleton.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5531da27-2d72-4617-bcb8-6a106ce3d572": {
+    "url": "db://assets/Game/Scripts/Utility/SoundManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "da6a5608-429d-4ff1-91b1-26e0a2168d2f": {
+    "url": "db://assets/Game/Scripts/Utility/super_html_playable.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a7a74d4c-7252-4b85-b7a3-7254ab773751": {
+    "url": "db://assets/Game/Scripts/Utility/Utility.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0c0a667d-fc13-45f5-91c1-ad4da1384fc5": {
+    "url": "db://assets/Game/Scripts/Utility/Playable/PlayableAdsController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2d911f3d-6137-4b77-a28b-437b0f900865": {
+    "url": "db://assets/Game/Scripts/Utility/Pool/BasePool.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "21120d49-6ef4-4a7c-856f-c4626ada150a": {
+    "url": "db://assets/Game/Scripts/Utility/Pool/PoolManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4b14c25a-8155-48b2-88c7-abf85adf6e56": {
+    "url": "db://assets/Prefab/Car_4.prefab",
+    "value": {
+      "depends": [
+        "84342d7f-b856-4b5d-b365-3f503d0db3af",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@99d6c",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@438fe",
+        "07cd295f-e98b-463c-a905-941a32b8593e",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@6ec10",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@57146",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@c2696",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@2875d",
+        "8f924403-3df2-42fe-9d7a-b3ccf57f186a",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@99d6c",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@6ec10",
+        "0778184e-0d7c-423c-843b-b96200ceafeb",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@3620d",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@cbffa",
+        "47b3ae55-94e9-40c3-8bb8-b284530656db@3c0d1"
+      ],
+      "dependScripts": [
+        "27827be9-1832-46fd-8158-1425d84b693f",
+        "618eb1b8-2fff-4e4f-92f5-e9de282841ca"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3546e55b-9532-4803-92ab-730a165e1069": {
+    "url": "db://assets/Prefab/Car_6.prefab",
+    "value": {
+      "depends": [
+        "84342d7f-b856-4b5d-b365-3f503d0db3af",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@99d6c",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@438fe",
+        "07cd295f-e98b-463c-a905-941a32b8593e",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@6ec10",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@57146",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@c2696",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@2875d",
+        "8f924403-3df2-42fe-9d7a-b3ccf57f186a",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@99d6c",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@6ec10",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@3620d",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@cbffa",
+        "4588f6c7-a251-4a70-b9d1-788b467c750c@3c0d1"
+      ],
+      "dependScripts": [
+        "27827be9-1832-46fd-8158-1425d84b693f",
+        "618eb1b8-2fff-4e4f-92f5-e9de282841ca"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c4eb5a42-68d3-47be-8d4b-783330414e99": {
+    "url": "db://assets/Prefab/Car_10.prefab",
+    "value": {
+      "depends": [
+        "84342d7f-b856-4b5d-b365-3f503d0db3af",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@99d6c",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@438fe",
+        "07cd295f-e98b-463c-a905-941a32b8593e",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@6ec10",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@57146",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@c2696",
+        "5cf87a35-21a1-4197-80f0-aaf64e44632e@2875d",
+        "8f924403-3df2-42fe-9d7a-b3ccf57f186a",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@99d6c",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@6ec10",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@3620d",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@cbffa",
+        "259f1dba-0cd3-4d59-88dd-ef339ade9fa3@3c0d1"
+      ],
+      "dependScripts": [
+        "27827be9-1832-46fd-8158-1425d84b693f",
+        "618eb1b8-2fff-4e4f-92f5-e9de282841ca"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0512548c-5448-43c3-a89b-3f3428f4c2e2": {
+    "url": "db://assets/Animation",
+    "value": {},
+    "versionCode": 1
+  },
+  "6655c468-efb2-42be-8c5c-93488ce4c771": {
+    "url": "db://assets/Prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "6e2fa564-175c-402b-88d8-8bfd0cb276d5": {
+    "url": "db://assets/Prefab/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "813040c6-4f96-43ef-a120-9bcb65011fe4": {
+    "url": "db://assets/Prefab/UI/Lose",
+    "value": {},
+    "versionCode": 1
+  },
+  "12fcb7cc-fd87-4587-801f-b60058c2f07d": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite",
+    "value": {},
+    "versionCode": 1
+  },
+  "da816fa1-ecd5-4137-9065-77cf8a9f678c": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose",
+    "value": {},
+    "versionCode": 1
+  },
+  "aed2aad4-fa67-4436-bb3c-f1182bf547c9": {
+    "url": "db://assets/Aniamtion/Pulse_UI.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a82bb299-5434-4bd9-ab68-5882467b66e9": {
+    "url": "db://assets/Prefab/UI/Lose/Failed.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "10bdb141-5805-4ce4-a929-0b2f73f8de5e": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/f.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8b925ba4-3338-443e-a276-b72df96aa780": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/logo.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "58ee868b-6e29-42d2-8b7f-09e00a383017": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/playNow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "58ee868b-6e29-42d2-8b7f-09e00a383017@6c48a": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/playNow.png@6c48a",
+    "value": {
+      "depends": [
+        "58ee868b-6e29-42d2-8b7f-09e00a383017"
+      ]
+    },
+    "versionCode": 1
+  },
+  "10bdb141-5805-4ce4-a929-0b2f73f8de5e@6c48a": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/f.png@6c48a",
+    "value": {
+      "depends": [
+        "10bdb141-5805-4ce4-a929-0b2f73f8de5e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8b925ba4-3338-443e-a276-b72df96aa780@6c48a": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/logo.png@6c48a",
+    "value": {
+      "depends": [
+        "8b925ba4-3338-443e-a276-b72df96aa780"
+      ]
+    },
+    "versionCode": 1
+  },
+  "58ee868b-6e29-42d2-8b7f-09e00a383017@f9941": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/playNow.png@f9941",
+    "value": {
+      "depends": [
+        "58ee868b-6e29-42d2-8b7f-09e00a383017@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8b925ba4-3338-443e-a276-b72df96aa780@f9941": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/logo.png@f9941",
+    "value": {
+      "depends": [
+        "8b925ba4-3338-443e-a276-b72df96aa780@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "10bdb141-5805-4ce4-a929-0b2f73f8de5e@f9941": {
+    "url": "db://assets/Prefab/UI/Lose/Sprite/Lose/f.png@f9941",
+    "value": {
+      "depends": [
+        "10bdb141-5805-4ce4-a929-0b2f73f8de5e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e1693eff-4105-460a-b565-15e724fa4fd3": {
+    "url": "db://assets/Game/Scripts/Controller/UIManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "03645702-afa8-4f24-a394-3f5d921a8b34": {
+    "url": "db://assets/Font",
+    "value": {},
+    "versionCode": 1
+  },
+  "d0ec5c3f-cd9f-42a5-bac9-62ca2fd97d15": {
+    "url": "db://assets/Font/Ubuntu-Bold.ttf",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3e0eba16-51dd-499e-9422-6a815f295f3c": {
+    "url": "db://assets/Font/Ubuntu-Light.ttf",
+    "value": {},
+    "versionCode": 1
+  },
+  "df8979c4-222b-4a06-85cb-0ed1643e1fbe": {
+    "url": "db://assets/Font/Ubuntu-Medium.ttf",
+    "value": {},
+    "versionCode": 1
+  },
+  "7f3c424f-f34b-4ebb-a197-a34a9691bed7": {
+    "url": "db://assets/Animation",
+    "value": {},
+    "versionCode": 1
+  },
+  "a2b2fad0-6df7-4e42-80af-08e70b67a00f": {
+    "url": "db://assets/Aniamtion/bottomtext.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "957b6a84-adc7-40df-8079-e8720f94ddc0": {
+    "url": "db://assets/Aniamtion/BottomText.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "e80f0934-5654-4bc9-9465-6d3e4443323e": {
+    "url": "db://assets/textures/Warning.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "e80f0934-5654-4bc9-9465-6d3e4443323e@6c48a": {
+    "url": "db://assets/textures/Warning.png@6c48a",
+    "value": {
+      "depends": [
+        "e80f0934-5654-4bc9-9465-6d3e4443323e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e80f0934-5654-4bc9-9465-6d3e4443323e@f9941": {
+    "url": "db://assets/textures/Warning.png@f9941",
+    "value": {
+      "depends": [
+        "e80f0934-5654-4bc9-9465-6d3e4443323e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d3452444-4434-4662-9bb1-45db908aa1e8": {
+    "url": "db://assets/textures/Warning.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d3452444-4434-4662-9bb1-45db908aa1e8@6c48a": {
+    "url": "db://assets/textures/Warning.png@6c48a",
+    "value": {
+      "depends": [
+        "d3452444-4434-4662-9bb1-45db908aa1e8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d3452444-4434-4662-9bb1-45db908aa1e8@f9941": {
+    "url": "db://assets/textures/Warning.png@f9941",
+    "value": {
+      "depends": [
+        "d3452444-4434-4662-9bb1-45db908aa1e8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  }
+}

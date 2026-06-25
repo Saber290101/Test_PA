@@ -1,0 +1,24 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "buildPath": "project://build",
+      "outputName": "web-mobile",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "web-mobile",
+      "nativeCodeBundleMode": "asmjs"
+    },
+    "taskOptionsMap": {
+      "1782346314396": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.8"
+  }
+}

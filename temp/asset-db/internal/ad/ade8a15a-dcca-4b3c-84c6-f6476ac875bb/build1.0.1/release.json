@@ -1,0 +1,65 @@
+[
+    1,
+    [
+        "6e8d7+eZdHeps1wYhZ/4Bm"
+    ],
+    [
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_props",
+                "_states",
+                "_defines"
+            ],
+            -1
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    ],
+    [
+        [
+            0,
+            "default-sprite-renderer-material",
+            [
+                {}
+            ],
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {}
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

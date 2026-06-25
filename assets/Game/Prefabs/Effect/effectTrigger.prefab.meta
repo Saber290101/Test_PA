@@ -1,0 +1,13 @@
+{
+  "ver": "1.1.50",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "c50c6f69-63c5-4a0d-99f6-d994d4da8e4d",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "effectTrigger"
+  }
+}
