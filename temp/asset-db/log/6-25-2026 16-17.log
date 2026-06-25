@@ -665,3 +665,10 @@
 6-25-2026 16:20:32-log: super-html : [kwai] [2876 kb] C:\Users\Tung Chen\Documents\GitHub\Test_PA\build\super-html\kwai\Ikame_Test_BusAway_kwai.zip
 6-25-2026 16:20:32-log: super-html : run time 6.424S
 6-25-2026 16:20:32-log: super-html : -- end -- 
+6-25-2026 16:20:45-debug: refresh db internal success
+6-25-2026 16:20:45-debug: refresh db assets success
+6-25-2026 16:20:45-debug: Run asset db hook engine-extends:afterRefresh ...
+6-25-2026 16:20:45-debug: Run asset db hook engine-extends:afterRefresh success!
+6-25-2026 16:20:45-debug: asset-db:worker-effect-data-processing (11ms)
+6-25-2026 16:20:45-debug: asset-db:refresh-all-database (88ms)
+6-25-2026 16:20:45-debug: asset-db-hook-engine-extends-afterRefresh (11ms)
